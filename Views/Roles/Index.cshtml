@@ -1,0 +1,50 @@
+﻿@model IEnumerable<HeAndSheStore.Models.Role>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    td {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+</style>
+
+<p>
+    <h3 class="h5 mb-4 text-left" style="margin-top:15px;"> <a asp-action="Create" class="btn" style="background-color: #8064A2 !important;color:whitesmoke!important ">Create New</a></h3>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Roleid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rolename)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Roleid)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rolename)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Roleid"><i class="fa fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Roleid"><i class="fa fa-calendar-o"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Roleid"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

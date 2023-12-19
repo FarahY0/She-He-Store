@@ -1,0 +1,62 @@
+﻿@model IEnumerable<HeAndSheStore.Models.Testimonial>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    td {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+</style>
+
+<p>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Isapproved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Createdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Fname)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Isapproved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Createdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Fname)
+            </td>
+            <td>
+                    <a  asp-action="Approve" asp-controller="Testimonials" asp-route-id="@item.TestimonialId"> <i class="fa fa-check" style="color:mediumpurple"></i> </a> |
+                    <a  asp-action="Reject" asp-controller="Testimonials" asp-route-id="@item.TestimonialId"> <i class="fa fa-remove" style="color:cadetblue"></i></a>|
+                    <a asp-action="Delete" asp-route-id="@item.TestimonialId"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

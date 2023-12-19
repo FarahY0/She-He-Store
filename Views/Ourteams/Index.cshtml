@@ -1,0 +1,73 @@
+﻿@model IEnumerable<HeAndSheStore.Models.Ourteam>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    td {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+</style>
+
+<p>
+    <h3 class="h5 mb-4 text-left" style="margin-top:15px;"> <a asp-action="Create" class="btn" style="background-color: #8064A2 !important;color:whitesmoke!important">Create New</a></h3>
+
+</p>
+<table class="table" style="box-sizing:content-box">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagepath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Empposition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emplinkedin)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Empinstagram)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <img src=@Url.Content("~/Images/"+item.Imagepath)
+                         asp-append-version=true style="border-radius : 20%; height:100px!important ; width:100px !important;" />
+
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empposition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emplinkedin)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.Empinstagram)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-calendar-o"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

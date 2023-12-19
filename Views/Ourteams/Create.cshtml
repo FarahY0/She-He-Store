@@ -1,0 +1,56 @@
+﻿@model HeAndSheStore.Models.Ourteam
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Ourteam</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empname" class="control-label"></label>
+                <input asp-for="Empname" class="form-control" />
+                <span asp-validation-for="Empname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empposition" class="control-label"></label>
+                <input asp-for="Empposition" class="form-control" />
+                <span asp-validation-for="Empposition" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Emplinkedin" class="control-label"></label>
+                <input asp-for="Emplinkedin" class="form-control" />
+                <span asp-validation-for="Emplinkedin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empgmail" class="control-label"></label>
+                <input asp-for="Empgmail" class="form-control" />
+                <span asp-validation-for="Empgmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empinstagram" class="control-label"></label>
+                <input asp-for="Empinstagram" class="form-control" />
+                <span asp-validation-for="Empinstagram" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,58 @@
+﻿@model Userr
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Registration.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <title>Sign Up page</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form id="contact-form" asp-action="Register" asp-controller="LoginRegister" method="post" enctype="multipart/form-data">
+            <h1>Hello! let's get started</h1>
+            <div class="input-box">
+                <input asp-for="Fname" placeholder="First Name" />
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input  asp-for="Lname" placeholder="Last Name" />
+                <i class="fa-solid fa-user"></i>
+            </div>
+           @* <div class="input-box">
+                <input asp-for="ImageFile" placeholder="Last Name" />
+                <i class="fa-solid fa-user"></i>
+            </div>*@
+            <div class="input-box">
+                <input type="email" name="userName" id="userName" placeholder="Username">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="Password" name="Password" placeholder="Password" />
+                <i class="fa fa-lock"></i>
+            </div>
+          
+            <input type="submit" value="Sign Up" id="signup" name="signup" class="btn">
+            <div class="register-link">
+                Do you have an account? <a asp-action="LogIn" asp-controller="LoginRegister">Log In</a>
+            </div>
+
+
+        </form>
+
+
+
+
+    </div>
+
+</body>
+</html>
+

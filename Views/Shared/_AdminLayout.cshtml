@@ -1,0 +1,187 @@
+﻿@inject ModelContext _context;
+@{
+    var userName = Context.Session.GetString("AdminName");
+   
+}
+
+@if (!string.IsNullOrEmpty(userName))
+{
+    
+}
+@*@{
+   
+    var imagePath = Context.Session.GetString("ImagePath");
+    
+}
+
+@if (!string.IsNullOrEmpty(imagePath))
+{
+    <p>Welcome, @imagePath</p>
+}*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Admin Dashboard</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- site icon -->
+    <link rel="icon" href="~/AdminAssets/images/fevicon.png" type="image/png" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/bootstrap.min.css" />
+    <!-- site css -->
+    <link rel="stylesheet" href="~/AdminAssets/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/responsive.css" />
+    <!-- color css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/color_2.css" />
+    <!-- select bootstrap -->
+    <link rel="stylesheet" href="~/AdminAssets/css/bootstrap-select.css" />
+    <!-- scrollbar css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/perfect-scrollbar.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/custom.css" />
+
+    <link rel="stylesheet" href="~/AdminAssets/TablesStyle.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="dashboard dashboard_2" style="background-image: url('adminassets\tablesjs\images\html_table.jpg');">
+    <div class="full_container">
+        <div class="inner_container"  >
+
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar_blog_1">
+                   
+                    <div class="sidebar_user_info">
+                        <div class="icon_setting"></div>
+                        <div class="user_profle_side" >
+                            @{
+                                if(Context.Session.GetString("UserId") != null)
+                                {
+                                    var userId = Context.Session.GetInt32("UserId");
+                                    var img = _context.Userrs.Where(x => x.Userid == userId).SingleOrDefault();
+                                    ViewBag.img = img.Imagepath;
+                                }
+                            }
+                            <div class="user_img"><img class="img-responsive" src=@Url.Content("~/Images/" + ViewBag.img) alt="" /></div>
+                            <div class="user_info">
+                                <h6>@userName</h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_blog_2">
+                    <h4>General</h4>
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a asp-action="Dashboard" asp-controller="Admin"  ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                        </li>
+                 
+                        <li><a asp-action="Report" asp-controller="Admin"><i class="fa fa-file" style="color:lightseagreen"></i> <span>Report</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Services"><i class="fa fa-clock-o orange_color"></i> <span>Service</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Videoservices"><i class="fa fa-video-camera" style="color:olive"></i> <span>Add Video</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Sliders"><i class="fa fa-sliders" aria-hidden="true"></i> <span>Sliders</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Ourteams"><i class="fa fa-user" style="color:orange"></i> <span>Team Store</span></a></li>
+                       
+                        <li> <a asp-action="Index" asp-controller="Products" ><i class="fa fa-diamond purple_color"></i> <span>Products</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Categories"><i class="fa fa-table purple_color2"></i> <span>Category</span></a></li>
+                   
+
+                        <li><a asp-action="Index" asp-controller="Userrs"><i class="fa fa-user black_color"></i> <span>Users</span></a></li>
+                        <li><a asp-action="Index" asp-controller="UserLogins"><i class="fa fa-users" aria-hidden="true" style="color:green"></i> <span>Users Logins</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Roles"> <i style="color:crimson" class="fa fa-user" ></i><span>Role</span></a></li>
+
+
+                        <li><a asp-action="Index" asp-controller="Orderrs"><i class="fa fa-truck" style="color:mediumpurple"></i> <span>Orders</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Reviews"><i class="fa fa-send-o" style="color:yellow"></i> <span>Review</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Testimonials"><i class="fa fa-signal"></i> <span>Testimonials</span></a></li>
+                        <li><a asp-action="Index" asp-controller="Contactus"><i class="fa fa-phone" aria-hidden="true" style="color:lightseagreen"></i> <span>Contact</span></a> </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+                <!-- topbar -->
+                <div class="topbar" >
+                    <nav class="navbar navbar-expand-lg navbar-light" >
+                        <div class="full">
+                            <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
+                           
+                            <div class="right_topbar">
+                                <div class="icon_info">
+                                   
+                                    <ul class="user_profile_dd">
+                                        <li>
+                                            <a class="dropdown-toggle" data-toggle="dropdown"><img class="rounded-circle" src="" alt="#" /><span class="name_user">@userName</span></a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" asp-action="EditAdminProfile" asp-controller="LoginRegister" asp-route-id="@Context.Session.GetInt32("UserId")">My Profile</a>
+                                            
+                                                <a class="dropdown-item" asp-action="Logout" asp-controller="LoginRegister"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- end topbar -->
+                <!-- dashboard inner -->
+                <div class="midde_cont">
+                    <div>@RenderBody()</div>
+                    <!-- footer -->
+                    <div class="container-fluid">
+                        <div class="footer">
+                            <p>
+                                Copyright © 2023 Designed by Farah All rights reserved.<br><br>
+                                Distributed By: <a href="https://www.linkedin.com/in/farahabusiam/">Farah Abusiam</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end dashboard inner -->
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="~/AdminAssets/js/jquery.min.js"></script>
+    <script src="~/AdminAssets/js/popper.min.js"></script>
+    <script src="~/AdminAssets/js/bootstrap.min.js"></script>
+    <!-- wow animation -->
+    <script src="~/AdminAssets/js/animate.js"></script>
+    <!-- select country -->
+    <script src="~/AdminAssets/js/bootstrap-select.js"></script>
+    <!-- owl carousel -->
+    <script src="~/AdminAssets/js/owl.carousel.js"></script>
+    <!-- chart js -->
+    <script src="~/AdminAssets/js/Chart.min.js"></script>
+    <script src="~/AdminAssets/js/Chart.bundle.min.js"></script>
+    <script src="~/AdminAssets/js/utils.js"></script>
+    <script src="~/AdminAssets/js/analyser.js"></script>
+    <!-- nice scrollbar -->
+    <script src="~/AdminAssets/js/perfect-scrollbar.min.js"></script>
+    <script>
+        var ps = new PerfectScrollbar('#sidebar');
+    </script>
+    <!-- custom js -->
+    <script src="~/AdminAssets/js/custom.js"></script>
+    <script src="~/AdminAssets/js/chart_custom_style2.js"></script>
+    <script src="~/AdminAssets/TablesJS/script.js"></script>
+
+
+</body>
+</html>

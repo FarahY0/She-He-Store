@@ -1,0 +1,119 @@
+﻿@model Orderr
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    td {
+        text-align: center;
+    }
+</style>
+<div style="background-color:white ; margin-top:20px;">
+    @if (Model.Status == Status.btn1.ToString())
+    {
+        <h3> Order - @Model.Orderid | <span class="text-danger"> Order confirmed  </span>  </h3>
+    }
+    else  @if (Model.Status == Status.btn2.ToString())
+    {
+        <h3> Order - @Model.Orderid | <span class="text-info">  On Process  </span> </h3>
+    }
+    else  @if (Model.Status == Status.btn3.ToString())
+    {
+        <h3> Order - @Model.Orderid | <span class="text-warning"> On the way  </span>  </h3>
+    }
+    else  @if (Model.Status == Status.btn4.ToString())
+    {
+        <h3> Order - @Model.Orderid | <span class="text-success">Arrived</span> </h3>
+    }
+
+    <table class="table mt-3">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">User Name</th>
+                <th scope="col">Country</th>
+                <th scope="col">Address</th>
+                <th scope="col">Email</th>
+                <th scope="col">Message Order</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@ViewBag.name</td>
+                <td>@Model.Billing.Country </td>
+                <td>@Model.Billing.Address</td>
+                <td>@Model.Billing.Email</td>
+                <td>@Model.Billing.Message</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+
+<h3>Order Items</h3>
+
+<div style="background-color:white; margin-top:8%">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Item Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.orderItems)
+            {
+                <tr>
+                    <td>@item.Product.Productname</td>
+                    <td>@item.Quantity </td>
+                    <td>@item.Itemprice</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+<div style="margin-top:8%">
+    <form asp-action="Edit" method="post">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <button type="submit" asp-route-status="btn1" style="width:100%" class="btn cur-p btn-outline-danger mt-2">Order confirmed</button>
+
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <button type="submit" asp-route-status="btn2" style="width:100%" class="btn cur-p btn-outline-secondary mt-2">On Process</button>
+
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <button type="submit" asp-route-status="btn3" style="width:100%" class="btn cur-p btn-outline-primary mt-2">On the way</button>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <button type="submit" asp-route-status="btn4" style="width:100%" class="btn cur-p btn-outline-success mt-2">Arrived</button>
+
+            </div>
+
+
+        </div>
+
+    </form>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-lg-4 col-xl-2" style="margin-top:5%;">
+        <span class="btnGroupDB" style="width:100%!important">
+            <a asp-action="Index" class="btn btn-dark" style="width:100%!important"><i class="fa-solid fa-arrow-right fa-rotate-180"></i> Back to List</a>
+        </span>
+
+    </div>
+</div>
+
+
+
+

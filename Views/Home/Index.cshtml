@@ -1,0 +1,430 @@
+﻿@model Tuple<IEnumerable<Slider>, IEnumerable<Service>,IEnumerable<Category>,Videoservice ,IEnumerable<Aboutu>,IEnumerable<Product> , IEnumerable<Testimonial> >
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--slider start from here -->
+<!-- ##### Hero Area Start ##### -->
+<section class="hero-area">
+
+    <div class="hero-post-slides owl-carousel">
+
+        @foreach (var item in Model.Item1)
+        {
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+
+
+                <img class="slide-img bg-img" src=@Url.Content("~/Images/"+item.Imageurl) />
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <h2>@item.Title</h2>
+                                <p>@item.Description</p>
+                                <div class="welcome-btn-group">
+                                    <a asp-action="Register" asp-controller="LoginRegister" class="btn alazea-btn mr-30">GET STARTED</a>
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Single Hero Post -->
+        }
+    </div>
+
+</section>
+<!-- ##### Hero Area End ##### -->
+<!-- ##### Service Area Start ##### -->
+<section class="our-services-area bg-gray section-padding-100-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>OUR SERVICES</h2>
+                    <p>We provide the perfect service for you.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-5">
+                <div class="alazea-service-area mb-100">
+                    @foreach (var item in Model.Item2)
+                    {
+                        <!-- Single Service Area -->
+                        <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
+                            <!-- Icon -->
+                            <div class="service-icon mr-30">
+                                <img src="@Url.Content("~/Images/"+item.Imagepath)" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="service-content">
+                                <h5>@item.Servicename</h5>
+                                <p>@item.Description</p>
+                            </div>
+                        </div>
+
+                    }
+
+
+
+
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="alazea-video-area bg-overlay mb-100">
+                    @*<img src="img/bg-img/23.jpg" alt="">*@
+                    <a href="">
+                        <video controls width="550" height="390">
+                            <source src=@Url.Content("~/Video/"+Model.Item4.Videourl) type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        @* <i class="fa fa-play" aria-hidden="true"></i>*@
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Service Area End ##### -->
+<!-- ##### About Area Start ##### -->
+<section class="about-us-area section-padding-100-0">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-5">
+                <!-- Section Heading -->
+                <div class="section-heading">
+                    <h2>ABOUT US</h2>
+                    <p>We are leading in the plants service fields.</p>
+                </div>
+                <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+
+                <!-- Progress Bar Content Area -->
+                <div class="alazea-progress-bar mb-50">
+                    <!-- Single Progress Bar -->
+                    <div class="single_progress_bar">
+                        <img src="~/dsc00741.jpg" />
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="alazea-benefits-area">
+                    <div class="row">
+                        @foreach (var item in Model.Item5)
+                        {
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="@Url.Content("~/Images/"+item.Imagepath)" alt="">
+                                    <h5>@item.Title</h5>
+                                    <p>@item.Content</p>
+                                </div>
+                            </div>
+                        }
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="border-line"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### About Area End ##### -->
+<!-- ##### Portfolio Area Start ##### -->
+<section class="alazea-portfolio-area section-padding-100-0" id="#section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>OUR Categories</h2>
+                    <p>We devote all of our experience and efforts for creation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row alazea-portfolio">
+            
+            @foreach (var item in Model.Item3)
+            {
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
+
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image:url('@Url.Content("~/Images/" + item.Imagepath)');"></div>
+                  
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a asp-action="GetProductsByCategory" asp-controller="Home" asp-route-id="@item.Categoryid" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                            <div class="port-hover-text">
+                               
+                                <h5>@item.Categoryname</h5>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            }
+           
+        </div>
+    </div>
+</section>
+
+<!-- ##### Portfolio Area End ##### -->
+<!-- ##### Testimonial Area Start ##### -->
+<section class="testimonial-area section-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="testimonials-slides owl-carousel">
+                    @foreach (var item in Model.Item7)
+                    {
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-thumb">
+                                        <img src="@Url.Content("~/Images/"+item.User.Imagepath)" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-content">
+                                        <!-- Section Heading -->
+                                        <div class="section-heading">
+                                            <h2>TESTIMONIAL</h2>
+                                            <p>Some kind words from clients about She & He store</p>
+                                        </div>
+
+                                        <p>“ @item.Comments ”</p>
+                                        <div class="testimonial-author-info">
+                                            <h6>@item.User.Fname <span>@item.User.Lname </span></h6>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Testimonial Area End ##### -->
+<!-- ##### Product Area Start ##### -->
+<section class="new-arrivals-products-area bg-gray section-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>NEW ARRIVALS</h2>
+                    <p>We have the latest products, it must be exciting for you</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model.Item6)
+            {
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="@Url.Content("~/Images/"+ item.Imagepath)" alt=""></a>
+                            <!-- Product Tag -->
+                            @if(item.Sale != null){
+                                <div class="product-tag">
+                                    <a href="#">Hot</a>
+                                </div>
+                            }
+                         
+
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@item.Productid">
+                                <p>@item.Productname</p>
+                            </a>
+
+                            <h6>
+                                @if (item.Sale > 0)
+
+                                {
+                                    <span class="stext-105 cl3">
+                                        <span style="color:cornflowerblue"><del>@item.Price $</del> </span>  &nbsp / &nbsp <span>@(item.Price - (item.Price * item.Sale / 100)) $</span>
+                                    </span>
+
+                                }
+                                else
+                                {
+                                    <span class="stext-105 cl3">
+                                         @item.Price $
+                                    </span>
+                                }
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+                
+            }
+            <!-- Single Product Area -->
+           
+          
+            <div class="col-12 text-center">
+                <a asp-action="Product" asp-controller="Home" class="btn alazea-btn">View All</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ##### Product Area End ##### -->
+
+
+
+<!-- ##### Contact Area Start ##### -->
+<section class="contact-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-5" style="margin-top:50px !important">
+                <!-- Section Heading -->
+                <div class="section-heading" >
+                    <h2>GET IN TOUCH</h2>
+                    <p>Send us a message, we will call back later</p>
+                </div>
+                <!-- Contact Form Area -->
+                <div class="contact-form-area mb-100">
+
+                    <form asp-action="ContactUs" asp-controller="Home" method="post">
+                        <div class="row">
+                            
+                                <div class="col-12 col-sm-6">
+                                <div class="form-group" data-validate="Name is required">
+                                    <input class="form-control" type="text" name="name" placeholder="Name">
+                                   
+                                </div>
+                                </div>
+
+                                 <div class="col-12 col-sm-6">
+                                <div class="form-group" data-validate="Valid email is required: ex@abc.xyz">
+                                    <input class="form-control" type="text" name="email" placeholder="Email">
+                                   
+                                </div>
+                                    </div>
+                            <div class="col-12">
+                                <div class="form-group" data-validate="Subject is required">
+                                    <input class="form-control" type="text" name="subject" placeholder="Subject">
+                                   
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group" data-validate="Message is required">
+                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <button  class="btn alazea-btn mt-15">
+                                    Send Message
+                                </button>
+                               
+                            </div>
+                        </div>
+                    </form>
+
+                  
+                </div>
+            </div>
+
+            <div class="col-5 col-lg-4" >
+                <!-- Google Maps -->
+                <div class="mb-100">
+                    
+                 <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2>CONTACT US</h2>
+                        <p>We are improving our services to serve you better.</p>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="contact-information">
+                        <p><span>Address:</span> 505 Silk Rd, New York</p>
+                        <p><span>Phone:</span> +1 234 122 122</p>
+                        <p><span>Email:</span> info.deercreative@gmail.com</p>
+                        <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
+                        <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Contact Area End ##### -->
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Swal.fire(
+                'Success!',
+                '@TempData["SuccessMessage"]',
+                'success'
+            );
+        });
+    </script>
+
+}
+@if (TempData["SuccessReview"] != null)
+
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Swal.fire(
+                'Success!',
+                '@TempData["SuccessReview"]',
+                'success'
+            );
+        });
+    </script>
+
+}

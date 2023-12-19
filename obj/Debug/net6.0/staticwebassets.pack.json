@@ -1,0 +1,3237 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AddToCartStyle.css",
+      "PackagePath": "staticwebassets\\AddToCartStyle.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\.gitattributes",
+      "PackagePath": "staticwebassets\\AdminAssets\\.gitattributes"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\404_error.html",
+      "PackagePath": "staticwebassets\\AdminAssets\\404_error.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Alex Gonley.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Alex Gonley.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Alson GC.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Alson GC.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Jeet Saru.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Jeet Saru.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Sarita Limbu.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Sarita Limbu.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Sonal Gharti.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Sonal Gharti.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\Zinzu Chan Lee.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\Zinzu Chan Lee.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\csv.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\csv.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\excel.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\excel.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\export.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\export.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\html_table.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\html_table.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\json.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\json.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\pdf.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\pdf.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\screenshot.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\screenshot.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\images\\search.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\images\\search.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesJS\\script.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesJS\\script.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TablesStyle.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TablesStyle.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\_media.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_border-radius.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_buttons.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_buttons.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_visibility.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\images\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\images\\product-1.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\images\\product-1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\images\\product-2.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\images\\product-2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\images\\product-3.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\images\\product-3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\images\\product-4.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\images\\product-4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\index.html",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\index.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\js\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\js\\main.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\js\\popper.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\main.html",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\main.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\TblDashStyle\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\TblDashStyle\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\contact.php",
+      "PackagePath": "staticwebassets\\AdminAssets\\contact.php"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\baguetteBox.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\calendar.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\calendar.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\calendar.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\calendar.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\color_2.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\color_2.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\jquery.fancybox.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\css\\semantic.min.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\css\\semantic.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\_flaticon.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\flaticon.html",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\flaticon.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminAssets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\landing_page\\stack-of-three-black-hot-stones-spa-salon-vector-16122479.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\landing_page\\stack-of-three-black-hot-stones-spa-salon-vector-16122479.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\american-express.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\american-express.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\bg1.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\bg1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\error.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\error.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g1.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g10.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g10.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g11.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g11.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g12.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g12.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g13.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g14.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g15.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g16.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g2.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g2.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g3.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g3.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g4.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g4.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g5.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g5.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g6.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g6.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g7.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g7.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g8.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g8.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\g9.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\g9.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\login_image.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\login_image.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\map_icon.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\map_icon.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\mastercard.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\mastercard.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\msg1.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\msg1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\msg2.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\msg2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\msg3.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\msg3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\msg4.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\msg4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\msg5.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\msg5.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\pattern.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\pattern.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\pattern_h.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\pattern_h.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\paypal.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\paypal.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\user_img.jpg",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\user_img.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\layout_img\\visa.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\layout_img\\visa.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\logo\\logo_black.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\logo\\logo_black.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\images\\logo\\logo_icon.png",
+      "PackagePath": "staticwebassets\\AdminAssets\\images\\logo\\logo_icon.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\Chart.bundle.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\Chart.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\Chart.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\analyser.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\analyser.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\animate.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\animate.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap-select.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\calendar.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\calendar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\calendar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\chart_custom_style1.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\chart_custom_style1.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\chart_custom_style2.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\chart_custom_style2.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\custom_chart.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\custom_chart.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\semantic.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\semantic.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\settings.html",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\settings.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\js\\utils.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\js\\utils.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\.DS_Store"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-animation.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-animation.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-api-annotations.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-api-annotations.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-api-rules.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-api-rules.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-api.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-api.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-area.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-area.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-area3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-area3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-boxplot.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-boxplot.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-bubble.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-bubble.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-bubblepie.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-bubblepie.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-calendar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-calendar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-chord.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-chord.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-core.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-core.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-csv.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-csv.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-debug.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-debug.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-dragging.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-dragging.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-errorbars.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-errorbars.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-export.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-export.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-gauge.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-gauge.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-grid.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-grid.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-guide.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-guide.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hbar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hbar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hbar3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hbubble.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hbubble.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hbullet.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hbullet.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hfunnel.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hfunnel.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-history.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-history.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-hscatter.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-hscatter.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-legend.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-legend.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-line.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-line.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-line3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-line3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-afg.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-afg.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ago.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ago.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-alb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-alb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-and.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-and.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-are.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-are.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-arg.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-arg.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-arm.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-arm.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-aus.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-aus.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-aut.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-aut.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-aze.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-aze.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bdi.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bdi.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bel.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bel.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ben.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ben.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bfa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bfa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bgr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bgr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bih.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bih.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-blr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-blr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bol.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bol.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bra.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bra.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-brn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-brn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-btn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-btn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-bwa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-bwa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-caf.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-caf.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-can.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-can.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-che.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-che.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-chl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-chl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-chn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-chn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-civ.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-civ.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cmr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cmr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cod.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cod.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cog.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cog.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-col.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-col.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cri.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cri.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cub.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cub.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cyp.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cyp.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-cze.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-cze.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-deu.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-deu.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-dnk.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-dnk.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ecu.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ecu.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-egy.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-egy.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-esp.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-esp.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-espL2.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-espL2.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-est.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-est.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-eth.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-eth.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-fin.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-fin.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-fra.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-fra.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-fraL2.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-fraL2.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gab.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gab.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gbr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gbr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gbrL2.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gbrL2.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-geojson.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-geojson.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gha.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gha.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gmb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gmb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gnb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gnb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-grc.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-grc.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-gtm.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-gtm.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-guf.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-guf.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-guy.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-guy.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-hrv.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-hrv.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-hun.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-hun.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ind.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ind.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-irl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-irl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-irn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-irn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-isl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-isl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-isr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-isr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ita.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ita.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-jpn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-jpn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-kaz.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-kaz.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ken.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ken.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-kor.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-kor.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-kwt.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-kwt.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-lao.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-lao.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-lbr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-lbr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-lie.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-lie.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ltu.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ltu.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-lux.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-lux.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-lva.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-lva.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-mda.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-mda.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-mex.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-mex.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-mkd.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-mkd.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-mne.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-mne.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-moz.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-moz.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-nam.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-nam.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ncl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ncl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-nga.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-nga.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-nld.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-nld.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-nor.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-nor.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-nzl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-nzl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-omn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-omn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-pak.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-pak.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-pan.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-pan.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-per.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-per.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-phl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-phl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-png.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-png.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-pol.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-pol.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-prt.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-prt.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-qat.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-qat.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-rou.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-rou.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-rus.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-rus.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-rwa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-rwa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-sen.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-sen.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-slv.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-slv.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-srb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-srb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-sur.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-sur.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-svk.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-svk.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-svn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-svn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-swe.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-swe.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-tha.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-tha.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-tjk.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-tjk.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-topojson.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-topojson.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-tun.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-tun.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-tur.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-tur.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-twn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-twn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-uga.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-uga.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ukr.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ukr.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ury.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ury.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ak.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ak.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_al.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_al.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_az.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_az.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ca.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ca.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_co.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_co.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ct.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ct.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_dc.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_dc.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_de.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_de.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_fl.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_fl.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ga.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ga.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_hi.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_hi.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ia.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ia.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_id.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_id.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_il.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_il.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_in.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_in.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ks.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ks.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ky.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ky.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_la.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_la.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ma.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ma.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_md.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_md.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_me.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_me.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_mi.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_mi.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_mn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_mn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_mo.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_mo.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ms.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ms.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_mt.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_mt.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nc.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nc.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nd.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nd.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ne.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ne.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nh.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nh.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nj.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nj.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nm.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nm.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_nv.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_nv.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ny.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ny.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_oh.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_oh.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ok.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ok.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_or.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_or.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_pa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_pa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ri.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ri.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_sc.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_sc.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_sd.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_sd.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_tn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_tn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_tx.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_tx.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_ut.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_ut.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_va.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_va.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_vt.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_vt.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_wa.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_wa.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_wi.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_wi.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_wv.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_wv.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-usa_wy.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-usa_wy.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-uzb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-uzb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-ven.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-ven.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-vnm.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-vnm.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-world-continents.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-world-continents.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-world-countries.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-world-countries.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-yem.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-yem.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-zaf.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-zaf.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-zmb.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-zmb.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps-zwe.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps-zwe.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-maps.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-maps.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-navpie.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-navpie.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-nestedpie.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-nestedpie.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-objects.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-objects.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-pareto.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-pareto.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-patterns.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-patterns.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-piano.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-piano.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-pie.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-pie.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-pie3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-pie3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-populationpyramid.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-populationpyramid.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-preview.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-preview.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-r.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-r.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-radar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-radar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-range.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-range.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-rankflow.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-rankflow.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-refresh.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-refresh.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-scalemarkers.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-scalemarkers.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-scatter.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-scatter.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-scroll.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-scroll.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-selection-tool.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-selection-tool.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-selection.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-selection.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-stock.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-stock.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-stream.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-stream.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-svg-simple-selection.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-svg-simple-selection.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-toolbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-toolbar3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-tooltip.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-treemap.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-treemap.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-varea.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-varea.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-vbar.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-vbar.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-vbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-vbar3d.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-vbullet.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-vbullet.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-venn.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-venn.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-vfunnel.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-vfunnel.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-vline.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-vline.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-waterfall.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-waterfall.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-wordcloud.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-wordcloud.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-xy.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-xy.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-yx.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-yx.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\modules\\zingchart-zoom.min.js",
+      "PackagePath": "staticwebassets\\AdminAssets\\modules\\zingchart-zoom.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\AdminAssets\\style.css",
+      "PackagePath": "staticwebassets\\AdminAssets\\style.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\ContactMe.js",
+      "PackagePath": "staticwebassets\\ContactMe.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\DSC00741.JPG",
+      "PackagePath": "staticwebassets\\DSC00741.JPG"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Fav.css",
+      "PackagePath": "staticwebassets\\Fav.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\00850682-c4db-4cfd-9420-20be925079da_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\00850682-c4db-4cfd-9420-20be925079da_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\01b29109-c11d-4416-9bec-8ac7309959e3_team3.png",
+      "PackagePath": "staticwebassets\\Images\\01b29109-c11d-4416-9bec-8ac7309959e3_team3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\03c41367-d6ec-4fbf-b204-29e2c9c0e976_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\03c41367-d6ec-4fbf-b204-29e2c9c0e976_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\03f45293-944f-4c4a-8e83-330bd77bed1d_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\03f45293-944f-4c4a-8e83-330bd77bed1d_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\04f316a2-825b-41e0-89ea-29e6ba8cf6d1_22.jpg",
+      "PackagePath": "staticwebassets\\Images\\04f316a2-825b-41e0-89ea-29e6ba8cf6d1_22.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\053867bb-b9e6-493f-a752-3b7255a8f9f0_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\053867bb-b9e6-493f-a752-3b7255a8f9f0_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\0bd61513-eb3f-4fdb-a11d-c0d69805ea7d_49.jpg",
+      "PackagePath": "staticwebassets\\Images\\0bd61513-eb3f-4fdb-a11d-c0d69805ea7d_49.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\12d24729-cc6b-4dcf-975f-f7e065ec8bdc_7.jpg",
+      "PackagePath": "staticwebassets\\Images\\12d24729-cc6b-4dcf-975f-f7e065ec8bdc_7.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\168dcc94-fe15-44f4-b1f8-34f709a12942_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\168dcc94-fe15-44f4-b1f8-34f709a12942_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\1722e7f8-55b7-43f9-a53d-66fcc24800a0_b2.png",
+      "PackagePath": "staticwebassets\\Images\\1722e7f8-55b7-43f9-a53d-66fcc24800a0_b2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\1a158b90-9dfd-4ea7-832f-205632d1c88b_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\1a158b90-9dfd-4ea7-832f-205632d1c88b_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\1ab983b2-e894-4903-b7e6-9892bb8de2e5_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\1ab983b2-e894-4903-b7e6-9892bb8de2e5_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\1f497483-0e6f-4a49-a621-055e6effa43d_47.png",
+      "PackagePath": "staticwebassets\\Images\\1f497483-0e6f-4a49-a621-055e6effa43d_47.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\1f91b3aa-bfef-40cb-8574-b0144d7484fd_16.jpg",
+      "PackagePath": "staticwebassets\\Images\\1f91b3aa-bfef-40cb-8574-b0144d7484fd_16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\208b617c-5e3a-4393-928b-17cdb67c7357_team1.png",
+      "PackagePath": "staticwebassets\\Images\\208b617c-5e3a-4393-928b-17cdb67c7357_team1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\219b0b6f-4173-4688-aa9f-43b4ec6a9f54_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\219b0b6f-4173-4688-aa9f-43b4ec6a9f54_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\24214b94-771d-42a4-8245-76c56abd4f21_40.png",
+      "PackagePath": "staticwebassets\\Images\\24214b94-771d-42a4-8245-76c56abd4f21_40.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\2617d7fb-da1a-4f06-8b3c-d96140e83b48_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\2617d7fb-da1a-4f06-8b3c-d96140e83b48_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\27ff1ac6-f36b-4b85-8a38-97bacf404548_b3.png",
+      "PackagePath": "staticwebassets\\Images\\27ff1ac6-f36b-4b85-8a38-97bacf404548_b3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\29fea096-6658-4b74-827a-a19bdd8879b3_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\29fea096-6658-4b74-827a-a19bdd8879b3_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\2d240fef-c998-4f8b-9e4b-fc6cbd8375d6_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\2d240fef-c998-4f8b-9e4b-fc6cbd8375d6_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\2eedd448-d53d-4603-bb01-841d99b2e25c_DSC00592.JPG",
+      "PackagePath": "staticwebassets\\Images\\2eedd448-d53d-4603-bb01-841d99b2e25c_DSC00592.JPG"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\2f0f67de-f57b-4938-aa43-dd2adebdb725_43.png",
+      "PackagePath": "staticwebassets\\Images\\2f0f67de-f57b-4938-aa43-dd2adebdb725_43.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\3080d21f-b88d-409a-9d67-d7756e079280_47.png",
+      "PackagePath": "staticwebassets\\Images\\3080d21f-b88d-409a-9d67-d7756e079280_47.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\331e3db7-a641-4ba4-9787-74c8d92ba46d_19.jpg",
+      "PackagePath": "staticwebassets\\Images\\331e3db7-a641-4ba4-9787-74c8d92ba46d_19.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\33e16231-f945-4028-8551-261635f1cd97_49.jpg",
+      "PackagePath": "staticwebassets\\Images\\33e16231-f945-4028-8551-261635f1cd97_49.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\38fb24fb-9d7c-4639-8ca0-35b3e1eb043a_b1.png",
+      "PackagePath": "staticwebassets\\Images\\38fb24fb-9d7c-4639-8ca0-35b3e1eb043a_b1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\3acfb372-7e28-4f25-ab0c-e2fe507475e7_17.jpg",
+      "PackagePath": "staticwebassets\\Images\\3acfb372-7e28-4f25-ab0c-e2fe507475e7_17.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\3b78f022-8367-4a2b-833f-b6fd83f1fedd_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\3b78f022-8367-4a2b-833f-b6fd83f1fedd_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\3c88bc4c-b1de-4f49-92ec-02ed827ac38d_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\3c88bc4c-b1de-4f49-92ec-02ed827ac38d_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\40ecc01f-d32d-4335-869c-718d4d889369_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\40ecc01f-d32d-4335-869c-718d4d889369_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\42679597-1b8c-4a3d-96b3-0e0315a562d1_40.png",
+      "PackagePath": "staticwebassets\\Images\\42679597-1b8c-4a3d-96b3-0e0315a562d1_40.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\43fc2383-1a93-4c34-918a-70a15f77f21c_12.jpg",
+      "PackagePath": "staticwebassets\\Images\\43fc2383-1a93-4c34-918a-70a15f77f21c_12.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\447388e4-4c4b-4622-bb01-a0fc6a853e9d_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\447388e4-4c4b-4622-bb01-a0fc6a853e9d_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\46ed9968-5128-4b2f-899d-278257270917_22.jpg",
+      "PackagePath": "staticwebassets\\Images\\46ed9968-5128-4b2f-899d-278257270917_22.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\4d615cc6-83ad-4a61-bda4-ebe09621635a_29.jpg",
+      "PackagePath": "staticwebassets\\Images\\4d615cc6-83ad-4a61-bda4-ebe09621635a_29.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\54ec91f2-2d82-42ed-b8c3-8dfb67d12fbf_45.png",
+      "PackagePath": "staticwebassets\\Images\\54ec91f2-2d82-42ed-b8c3-8dfb67d12fbf_45.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\583bc372-ce53-49c4-b4e1-d4bb34021a49_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\583bc372-ce53-49c4-b4e1-d4bb34021a49_1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\58986bf4-c275-452d-8958-08bc76edb984_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\58986bf4-c275-452d-8958-08bc76edb984_1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\5b0e4bfa-39b0-4f47-a1a5-f935d4c75ea0_s3.png",
+      "PackagePath": "staticwebassets\\Images\\5b0e4bfa-39b0-4f47-a1a5-f935d4c75ea0_s3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\5dfd23ba-4f7d-4252-b85d-5eee47dd7441_9.jpg",
+      "PackagePath": "staticwebassets\\Images\\5dfd23ba-4f7d-4252-b85d-5eee47dd7441_9.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\6377120d-7c70-4d58-975c-5a6ea38feec8_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\6377120d-7c70-4d58-975c-5a6ea38feec8_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\63eb3096-9386-4cf0-bc56-f4a8d4df5872_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\63eb3096-9386-4cf0-bc56-f4a8d4df5872_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\64ab2c92-a049-4759-85d4-ed1e40df098f_16.jpg",
+      "PackagePath": "staticwebassets\\Images\\64ab2c92-a049-4759-85d4-ed1e40df098f_16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\65fb8f43-4c6e-4fe4-9237-e4d64ac99c19_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\65fb8f43-4c6e-4fe4-9237-e4d64ac99c19_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\67e422b5-0b37-4206-a8a1-1d89b7ffbb63_10.jpg",
+      "PackagePath": "staticwebassets\\Images\\67e422b5-0b37-4206-a8a1-1d89b7ffbb63_10.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\69ba7956-6258-46d2-b7a9-4d3264dd1c0c_19.jpg",
+      "PackagePath": "staticwebassets\\Images\\69ba7956-6258-46d2-b7a9-4d3264dd1c0c_19.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\69d56dd6-e23f-4feb-8d2a-10fb9f356674_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\69d56dd6-e23f-4feb-8d2a-10fb9f356674_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\6ea54d95-ad2a-47de-9735-5d5239433971_18.jpg",
+      "PackagePath": "staticwebassets\\Images\\6ea54d95-ad2a-47de-9735-5d5239433971_18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\6fc7a9b2-c450-42fe-b1d4-2e78cfec7285_s1.png",
+      "PackagePath": "staticwebassets\\Images\\6fc7a9b2-c450-42fe-b1d4-2e78cfec7285_s1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\6fd549bf-bbfa-4038-9acf-17054629fb5e_s1.png",
+      "PackagePath": "staticwebassets\\Images\\6fd549bf-bbfa-4038-9acf-17054629fb5e_s1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\6ff48900-4f50-45cd-95e5-6f487e0dcf5c_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\6ff48900-4f50-45cd-95e5-6f487e0dcf5c_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\71721e94-5571-405b-8b88-1aec4dfc1dc0_47.png",
+      "PackagePath": "staticwebassets\\Images\\71721e94-5571-405b-8b88-1aec4dfc1dc0_47.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\717cf83c-7cc2-47cd-987c-754af02d543e_s1.png",
+      "PackagePath": "staticwebassets\\Images\\717cf83c-7cc2-47cd-987c-754af02d543e_s1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\739dc93a-4818-406e-8e17-385a7f12a2f3_9.jpg",
+      "PackagePath": "staticwebassets\\Images\\739dc93a-4818-406e-8e17-385a7f12a2f3_9.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\78c7da1b-ba7a-49db-abdd-be6f9a3750c5_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\78c7da1b-ba7a-49db-abdd-be6f9a3750c5_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\7c709e3e-abed-49db-89d0-291f91c5dede_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\7c709e3e-abed-49db-89d0-291f91c5dede_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\7cc36209-4835-4b4a-9667-635038716d34_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\7cc36209-4835-4b4a-9667-635038716d34_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\80bcbabe-b414-47e6-a196-aa0abc25f332_b4.png",
+      "PackagePath": "staticwebassets\\Images\\80bcbabe-b414-47e6-a196-aa0abc25f332_b4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\82dc46fe-d9fc-4b86-a521-b30331f9ddb1_cf3.png",
+      "PackagePath": "staticwebassets\\Images\\82dc46fe-d9fc-4b86-a521-b30331f9ddb1_cf3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\87a5f818-1b49-4d9e-93d5-5e2260a4f1ec_b1.png",
+      "PackagePath": "staticwebassets\\Images\\87a5f818-1b49-4d9e-93d5-5e2260a4f1ec_b1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\8840faa5-65ee-4832-a29c-c3555899add6_41.png",
+      "PackagePath": "staticwebassets\\Images\\8840faa5-65ee-4832-a29c-c3555899add6_41.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\8a8bb8d7-1655-4f8e-9842-ccbc862238f8_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\8a8bb8d7-1655-4f8e-9842-ccbc862238f8_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\8b563105-ff22-4174-bc1c-80428ed41d26_18.jpg",
+      "PackagePath": "staticwebassets\\Images\\8b563105-ff22-4174-bc1c-80428ed41d26_18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\8f3dc645-45c6-4c18-97c5-aad79de64084_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\8f3dc645-45c6-4c18-97c5-aad79de64084_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\935c5e57-dbc6-437c-8340-bacad80532ee_11.jpg",
+      "PackagePath": "staticwebassets\\Images\\935c5e57-dbc6-437c-8340-bacad80532ee_11.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\96131157-7947-475a-a59b-a8f42240ff34_17.jpg",
+      "PackagePath": "staticwebassets\\Images\\96131157-7947-475a-a59b-a8f42240ff34_17.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\966d75ea-3435-4151-aa36-d69b17209e74_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\966d75ea-3435-4151-aa36-d69b17209e74_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\9a6ea010-ef3d-45ef-8e01-eb2338215cab_team3.png",
+      "PackagePath": "staticwebassets\\Images\\9a6ea010-ef3d-45ef-8e01-eb2338215cab_team3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\9ab54566-f942-4541-ac3b-b3f057ca5884_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\9ab54566-f942-4541-ac3b-b3f057ca5884_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\a0487d95-8d47-45c9-b9c8-fd922178eb0b_16.jpg",
+      "PackagePath": "staticwebassets\\Images\\a0487d95-8d47-45c9-b9c8-fd922178eb0b_16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\a4720513-2a6b-44a4-b07b-ed8d70bf8b46_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\a4720513-2a6b-44a4-b07b-ed8d70bf8b46_2.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\a5318b24-194a-44c5-b60a-3cf2ce9e8e91_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\a5318b24-194a-44c5-b60a-3cf2ce9e8e91_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\a790e002-4be4-4c84-bc0c-9c1c624577af_leaf.png",
+      "PackagePath": "staticwebassets\\Images\\a790e002-4be4-4c84-bc0c-9c1c624577af_leaf.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\a9f599bb-5835-4ab4-ace2-f310b8c0a071_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\a9f599bb-5835-4ab4-ace2-f310b8c0a071_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\aa59c069-548d-46ca-810e-9c0faf44e114_19.jpg",
+      "PackagePath": "staticwebassets\\Images\\aa59c069-548d-46ca-810e-9c0faf44e114_19.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ac3f1630-80bb-4d6d-855b-d179d19105bd_21.jpg",
+      "PackagePath": "staticwebassets\\Images\\ac3f1630-80bb-4d6d-855b-d179d19105bd_21.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ac56874f-c613-459f-9bc5-e2ff7643abf0_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\ac56874f-c613-459f-9bc5-e2ff7643abf0_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ad267e25-e1ba-4030-98d8-56d5eb689a42_22.jpg",
+      "PackagePath": "staticwebassets\\Images\\ad267e25-e1ba-4030-98d8-56d5eb689a42_22.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ade2d0c9-22b7-4973-821b-dd11e7e3a990_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\ade2d0c9-22b7-4973-821b-dd11e7e3a990_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\b16658e3-2482-40b4-9d97-ccca39a6e875_18.jpg",
+      "PackagePath": "staticwebassets\\Images\\b16658e3-2482-40b4-9d97-ccca39a6e875_18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\b3a20163-9ae1-4877-bbf5-ac3c6ebe8dbd_team4.png",
+      "PackagePath": "staticwebassets\\Images\\b3a20163-9ae1-4877-bbf5-ac3c6ebe8dbd_team4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\b9bb5130-39f9-460a-af71-9d4a512b3ce1_46.png",
+      "PackagePath": "staticwebassets\\Images\\b9bb5130-39f9-460a-af71-9d4a512b3ce1_46.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ba27d625-492e-4e07-8f4a-88e10407139b_11.jpg",
+      "PackagePath": "staticwebassets\\Images\\ba27d625-492e-4e07-8f4a-88e10407139b_11.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\bcd7854c-2aaf-421b-a1a4-1a9cd4649f3b_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\bcd7854c-2aaf-421b-a1a4-1a9cd4649f3b_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\bdb7152a-6ceb-42e5-bc10-d83fea72be45_18.jpg",
+      "PackagePath": "staticwebassets\\Images\\bdb7152a-6ceb-42e5-bc10-d83fea72be45_18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\bdc986cb-87d5-494d-b205-9282c247c7f1_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\bdc986cb-87d5-494d-b205-9282c247c7f1_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\c2534c62-cb4f-4a6f-8b55-6c242d33103d_20.jpg",
+      "PackagePath": "staticwebassets\\Images\\c2534c62-cb4f-4a6f-8b55-6c242d33103d_20.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\c5bf553a-5e64-4567-8311-37f7a906f35f_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\c5bf553a-5e64-4567-8311-37f7a906f35f_1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\c959e4e2-49f4-4e46-9afe-607af95e6f27_7.jpg",
+      "PackagePath": "staticwebassets\\Images\\c959e4e2-49f4-4e46-9afe-607af95e6f27_7.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\c96c14f2-1303-4866-9485-4dff7843a54c_b1.png",
+      "PackagePath": "staticwebassets\\Images\\c96c14f2-1303-4866-9485-4dff7843a54c_b1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\cbd78e39-bcec-43f7-909b-168ec8d8206f_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\cbd78e39-bcec-43f7-909b-168ec8d8206f_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\cf1dea4d-fcf5-4e1f-b885-5f93e57eb323_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\cf1dea4d-fcf5-4e1f-b885-5f93e57eb323_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\d11c758d-cc29-47b8-b4dc-226aa701d76e_38.jpg",
+      "PackagePath": "staticwebassets\\Images\\d11c758d-cc29-47b8-b4dc-226aa701d76e_38.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\d6b8fe4e-8ff0-4b90-8e74-3ddd56305d29_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\d6b8fe4e-8ff0-4b90-8e74-3ddd56305d29_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\d813297b-c5da-49f9-90ec-d0d3d0156664_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\d813297b-c5da-49f9-90ec-d0d3d0156664_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\daf1f6d7-b321-4621-af24-371af8bf8b56_16.jpg",
+      "PackagePath": "staticwebassets\\Images\\daf1f6d7-b321-4621-af24-371af8bf8b56_16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\db11e9f0-27cb-4de5-8024-fecb25d808e3_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\db11e9f0-27cb-4de5-8024-fecb25d808e3_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\dc14322a-a6ec-421c-aa83-b5b9435968b6_17.jpg",
+      "PackagePath": "staticwebassets\\Images\\dc14322a-a6ec-421c-aa83-b5b9435968b6_17.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\dd90939a-789f-4112-9035-8e28bb6cf310_20.jpg",
+      "PackagePath": "staticwebassets\\Images\\dd90939a-789f-4112-9035-8e28bb6cf310_20.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\dfd7765d-b876-44cf-9d89-5c33bcba58eb_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\dfd7765d-b876-44cf-9d89-5c33bcba58eb_2.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\dfd9ba52-27f2-4753-8f86-e12bc29728bf_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\dfd9ba52-27f2-4753-8f86-e12bc29728bf_2.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\dfea1211-4576-445d-a4fb-04aa43e3e2d0_21.jpg",
+      "PackagePath": "staticwebassets\\Images\\dfea1211-4576-445d-a4fb-04aa43e3e2d0_21.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\e0dd7f2f-a955-47bf-af03-a1d030a497ac_44.png",
+      "PackagePath": "staticwebassets\\Images\\e0dd7f2f-a955-47bf-af03-a1d030a497ac_44.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\e57faaff-99cc-4fd9-b9e6-49119e34cad8_37.jpg",
+      "PackagePath": "staticwebassets\\Images\\e57faaff-99cc-4fd9-b9e6-49119e34cad8_37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\e67d99ac-be37-406f-97f3-91b957cd0a16_b3.png",
+      "PackagePath": "staticwebassets\\Images\\e67d99ac-be37-406f-97f3-91b957cd0a16_b3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ea946236-a3c0-4942-be4f-23b75d271f54_19.jpg",
+      "PackagePath": "staticwebassets\\Images\\ea946236-a3c0-4942-be4f-23b75d271f54_19.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\eab39272-8a7e-452a-988c-21f35e48559f_DSC00741.JPG",
+      "PackagePath": "staticwebassets\\Images\\eab39272-8a7e-452a-988c-21f35e48559f_DSC00741.JPG"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\eb13bcaa-45db-4ebd-b69b-9e0a95cda275_18.jpg",
+      "PackagePath": "staticwebassets\\Images\\eb13bcaa-45db-4ebd-b69b-9e0a95cda275_18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ebc6998d-ac67-4b81-9223-14005d1c05da_29.jpg",
+      "PackagePath": "staticwebassets\\Images\\ebc6998d-ac67-4b81-9223-14005d1c05da_29.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\efa2b44c-5672-4411-8976-6caaa6af3081_s2.png",
+      "PackagePath": "staticwebassets\\Images\\efa2b44c-5672-4411-8976-6caaa6af3081_s2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f055ab5b-2192-4e1f-9130-43504db90ad1_team2.png",
+      "PackagePath": "staticwebassets\\Images\\f055ab5b-2192-4e1f-9130-43504db90ad1_team2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f076b194-166b-412f-96f6-fe4415a4ecd2_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\f076b194-166b-412f-96f6-fe4415a4ecd2_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f1685e7c-5468-45b2-99cd-954b1fbfa482_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\f1685e7c-5468-45b2-99cd-954b1fbfa482_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f19dfb57-3df4-4b47-9edf-384dfa0e3e88_48.png",
+      "PackagePath": "staticwebassets\\Images\\f19dfb57-3df4-4b47-9edf-384dfa0e3e88_48.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f2a9d0d0-f0e7-44f1-b1f2-ebf546224bcd_14.jpg",
+      "PackagePath": "staticwebassets\\Images\\f2a9d0d0-f0e7-44f1-b1f2-ebf546224bcd_14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f2c09793-868c-4342-8549-63d2e64b7431_13.jpg",
+      "PackagePath": "staticwebassets\\Images\\f2c09793-868c-4342-8549-63d2e64b7431_13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f5509ed4-66c7-45f3-b96d-9f8ddeb4fd10_15.jpg",
+      "PackagePath": "staticwebassets\\Images\\f5509ed4-66c7-45f3-b96d-9f8ddeb4fd10_15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\f755fcd1-802e-40ce-9165-427087976321_32.jpg",
+      "PackagePath": "staticwebassets\\Images\\f755fcd1-802e-40ce-9165-427087976321_32.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\fe509989-7ccf-4b0e-8e57-21267e42ab43_47.png",
+      "PackagePath": "staticwebassets\\Images\\fe509989-7ccf-4b0e-8e57-21267e42ab43_47.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Images\\ffee8d11-6e32-491b-a376-415aad0f029c_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ffee8d11-6e32-491b-a376-415aad0f029c_1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\ProfileTemplate\\index.html",
+      "PackagePath": "staticwebassets\\ProfileTemplate\\index.html"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\ProfileTemplate\\style.css",
+      "PackagePath": "staticwebassets\\ProfileTemplate\\style.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Registration.css",
+      "PackagePath": "staticwebassets\\Registration.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\SheAndHe.png",
+      "PackagePath": "staticwebassets\\SheAndHe.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\SheAndHe1.png",
+      "PackagePath": "staticwebassets\\SheAndHe1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\SheAndHe2.png",
+      "PackagePath": "staticwebassets\\SheAndHe2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Video\\621244ff-cb74-457a-9435-cdfd4f2f5142_v1.mp4",
+      "PackagePath": "staticwebassets\\Video\\621244ff-cb74-457a-9435-cdfd4f2f5142_v1.mp4"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Video\\6baf1026-f958-499c-b532-ab98f8e1c978_v1.mp4",
+      "PackagePath": "staticwebassets\\Video\\6baf1026-f958-499c-b532-ab98f8e1c978_v1.mp4"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Video\\7f67131c-e8f5-49e8-97db-07fbf9bf0f60_yt1s.com - SuperMoss  Biophilic Design For The Home_720p.mp4",
+      "PackagePath": "staticwebassets\\Video\\7f67131c-e8f5-49e8-97db-07fbf9bf0f60_yt1s.com - SuperMoss  Biophilic Design For The Home_720p.mp4"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Video\\b8bdbfa8-a258-4e96-aed9-a4706e5c884d_v1.mp4",
+      "PackagePath": "staticwebassets\\Video\\b8bdbfa8-a258-4e96-aed9-a4706e5c884d_v1.mp4"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\Video\\d8959f0f-5411-446a-8326-c7914ffff175_v2.mp4",
+      "PackagePath": "staticwebassets\\Video\\d8959f0f-5411-446a-8326-c7914ffff175_v2.mp4"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\classy-nav.css",
+      "PackagePath": "staticwebassets\\css\\classy-nav.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\elegant-icon.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icon.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\classy.eot",
+      "PackagePath": "staticwebassets\\fonts\\classy.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\classy.svg",
+      "PackagePath": "staticwebassets\\fonts\\classy.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\classy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\classy.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\classy.woff",
+      "PackagePath": "staticwebassets\\fonts\\classy.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\gh.png",
+      "PackagePath": "staticwebassets\\gh.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\She & He.png",
+      "PackagePath": "staticwebassets\\img\\She & He.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\She&HeTwo.png",
+      "PackagePath": "staticwebassets\\img\\She&HeTwo.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\1.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\10.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\11.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\12.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\13.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\14.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\15.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\16.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\17.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\17.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\18.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\18.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\19.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\19.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\2.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\20.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\20.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\21.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\21.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\22.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\23.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\23.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\24.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\24.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\2424.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\2424.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\25.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\25.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\26.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\26.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\27.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\27.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\28.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\28.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\29.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\29.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\3.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\30.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\30.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\31.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\31.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\32.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\32.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\33.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\33.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\34.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\34.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\35.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\35.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\36.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\36.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\37.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\37.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\38.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\38.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\39.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\39.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\4.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\40.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\40.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\41.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\41.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\42.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\42.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\43.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\43.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\44.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\44.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\45.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\45.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\46.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\46.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\47.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\47.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\48.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\48.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\49.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\49.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\5.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\6.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\7.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\8.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\9.jpg"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\cool-facts.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\cool-facts.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\subscribe.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\subscribe.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\team1.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\team2.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\team3.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\bg-img\\team4.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\b1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\b2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\b3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\b4.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\cf1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\cf2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\cf3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\cf4.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf4.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\core-img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\leaf.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\leaf.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\logo.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\pot.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\pot.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\s1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s1.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\s2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s2.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\img\\core-img\\s3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s3.png"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\active.js",
+      "PackagePath": "staticwebassets\\js\\active.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\bootstrap\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\jquery\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\plugins\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\plugins.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\scss\\_theme_color.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme_color.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "E:\\Tahaluf\\HeAndSheStore\\wwwroot\\style.css.map",
+      "PackagePath": "staticwebassets\\style.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HeAndSheStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HeAndSheStore.props",
+      "PackagePath": "build\\HeAndSheStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HeAndSheStore.props",
+      "PackagePath": "buildMultiTargeting\\HeAndSheStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HeAndSheStore.props",
+      "PackagePath": "buildTransitive\\HeAndSheStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

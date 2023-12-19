@@ -1,0 +1,238 @@
+﻿@model HeAndSheStore.Models.Userr
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>User Profile</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- site icon -->
+    <link rel="icon" href="~/AdminAssets/images/fevicon.png" type="image/png" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/bootstrap.min.css" />
+    <!-- site css -->
+    <link rel="stylesheet" href="~/AdminAssets/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/responsive.css" />
+    <!-- color css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/colors.css" />
+    <!-- select bootstrap -->
+    <link rel="stylesheet" href="~/AdminAssets/css/bootstrap-select.css" />
+    <!-- scrollbar css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/perfect-scrollbar.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="~/AdminAssets/css/custom.css" />
+    <!-- calendar file css -->
+    <link rel="stylesheet" href="~/AdminAssets/js/semantic.min.css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="inner_page profile_page">
+    <div class="full_container">
+        <div class="inner_container">
+         
+            <!-- right content -->
+            <div id="content">
+             
+                <!-- dashboard inner -->
+                <div class="midde_cont">
+                    <div class="container-fluid">
+                     
+                        <!-- row -->
+                        <div class="row column1">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="white_shd full margin_bottom_30">
+                                    <div class="full graph_head">
+                                        <div class="heading1 margin_0">
+                                            <h2> @Html.DisplayFor(model => model.Fname) <span>@Html.DisplayFor(model => model.Lname)</span> </h2>
+                                        </div>
+                                    </div>
+                                    <div class="full price_table padding_infor_info">
+                                        <div class="row">
+                                            <!-- user profile section -->
+                                            <!-- profile image -->
+                                            <div class="col-lg-12">
+                                                <div class="full dis_flex center_text">
+                                                    <div class="profile_img">
+                                                        <img width="180" class="rounded-circle" id="img" src="@Url.Content("~/Images/"+Model.Imagepath)" alt="#" />
+                                                        </div>
+                                                    <div class="profile_contant">
+                                                        <div class="contact_inner">
+                                                            <h3> @Html.DisplayFor(model => model.Fname)</h3>
+                                                           
+                                                            <ul class="list-unstyled">
+                                                                <li><i class="fa fa-envelope-o"></i> :@* @Model.Email*@</li>
+                                                                <li><i class="fa fa-phone"></i> @Html.DisplayFor(model => model.Gender)</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="user_progress_bar">
+                                                            <div class="progress_bar">
+                                                                <!-- Skill Bars -->
+                                                              
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- profile contant section -->
+                                                <div class="full inner_elements margin_top_30">
+                                                    <div class="tab_style2">
+                                                        <div class="tabbar">
+                                                            <nav>
+                                                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                                   @* <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#recent_activity" role="tab" aria-selected="true">Recent Activity</a>*@
+                                                                    @* <a class="nav-item nav-link" id="nav-profile-tab" href="#profile_section" >Orders</a>*@
+                                                            
+                                                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#profile_section" role="tab" aria-selected="false">Edit Profile</a>
+
+                                                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#project_worked" role="tab" aria-selected="false">My Orders</a>
+
+                                                                </div>
+                                                            </nav>
+                                                            <div class="tab-content" id="nav-tabContent">
+                                                         
+                                                                <div  class="tab-pane fade" id="profile_section" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                                                   
+                                                                    <p>
+                                                                       
+
+                                                                        <div style="display: flex; justify-content: center; align-items: center; height: 50vh; ">
+
+                                                                            <div class="contact-form-area mb-100" style="  width:700px ; ">
+                                                                                <form asp-action="EditUserProfile" asp-controller="LoginRegister" enctype="multipart/form-data">
+                                                                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                                                    <input type="hidden" asp-for="Userid" />
+                                                                                    <div class="row">
+                                                                                        <div class="col-12 col-md-6">
+                                                                                            <div class="form-group">
+                                                                                                <label asp-for="Fname" class="control-label"></label>
+                                                                                                <input asp-for="Fname" class="form-control" />
+                                                                                                <span asp-validation-for="Fname" class="text-danger"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-12 col-md-6">
+                                                                                            <div class="form-group">
+                                                                                                <label asp-for="Lname" class="control-label"></label>
+                                                                                                <input asp-for="Lname" class="form-control" />
+                                                                                                <span asp-validation-for="Lname" class="text-danger"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <div class="form-group">
+                                                                                                <label asp-for="ImageFile" class="control-label"></label>
+                                                                                                <input asp-for="ImageFile" class="form-control" onchange="FillImage(event)" />
+                                                                                                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <div class="form-group">
+                                                                                                <label asp-for="Gender" class="control-label"></label>
+                                                                                                <input asp-for="Gender" class="form-control" />
+                                                                                                <span asp-validation-for="Gender" class="text-danger"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <div class="form-group">
+                                                                                                <input type="submit" value="Save" class="btn btn-success" />
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </p>
+                                                                </div>
+
+
+                                                                <div class="tab-pane fade" id="project_worked" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                                                    
+
+
+                                                                <div/>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end user profile section -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <!-- end row -->
+                        </div>
+                      
+                       
+                    </div>
+                    <!-- end dashboard inner -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="~/AdminAssets/js/jquery.min.js"></script>
+    <script src="~/AdminAssets/js/popper.min.js"></script>
+    <script src="~/AdminAssets/js/bootstrap.min.js"></script>
+    <!-- wow animation -->
+    <script src="~/AdminAssets/js/animate.js"></script>
+    <!-- select country -->
+    <script src="~/AdminAssets/js/bootstrap-select.js"></script>
+    <!-- owl carousel -->
+    <script src="~/AdminAssets/js/owl.carousel.js"></script>
+    <!-- chart js -->
+    <script src="~/AdminAssets/js/Chart.min.js"></script>
+    <script src="~/AdminAssets/js/Chart.bundle.min.js"></script>
+    <script src="~/AdminAssets/js/utils.js"></script>
+    <script src="~/AdminAssets/js/analyser.js"></script>
+    <!-- nice scrollbar -->
+    <script src="~/AdminAssets/js/perfect-scrollbar.min.js"></script>
+   
+    <!-- custom js -->
+    <script src="~/AdminAssets/js/custom.js"></script>
+    <!-- calendar file css -->
+    <script src="~/AdminAssets/js/semantic.min.js"></script>
+    <script>
+        var FillImage = function(event){
+            var img = document.getElementById('img');
+            img.src = URL.createObjectURL(event.target.files[0]);
+        }
+    </script>
+   
+ @*   <script>
+        $(document).ready(function () {
+            $('#nav-profile-tab').on('click', function () {
+              
+                $.get('/LoginRegister/GetUserId', function (userId) {
+                    if (userId) {
+                        
+                        $.get('/LoginRegister/EditUserProfile', { id: userId }, function (data) {
+                            $('#editProfileFormContainer').html(data);
+                        });
+                    }
+                });
+            });
+        });
+    </script>*@
+
+
+</body>
+</html>

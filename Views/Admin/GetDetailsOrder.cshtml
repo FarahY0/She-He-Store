@@ -1,0 +1,280 @@
+﻿@model IEnumerable<Itorder>
+@{
+    ViewData["Title"] = "GetDetailsOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <!-- Include Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="Order.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+
+        body {
+            font-family: 'Open Sans', serif
+        }
+
+
+
+        .card {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.10rem
+        }
+
+        .card-header:first-child {
+            border-radius: calc(0.37rem - 1px) calc(0.37rem - 1px) 0 0
+        }
+
+        .card-header {
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+        }
+
+        .track {
+            position: relative;
+            background-color: #ddd;
+            height: 7px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: 60px;
+            margin-top: 50px
+        }
+
+            .track .step {
+                -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                width: 25%;
+                margin-top: -18px;
+                text-align: center;
+                position: relative
+            }
+
+                .track .step.active:before {
+                    background: #4b49ac;
+                }
+
+                .track .step::before {
+                    height: 7px;
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    left: 0;
+                    top: 18px
+                }
+
+                .track .step.active .icon {
+                    background: #4b49ac;
+                    color: #fff
+                }
+
+            .track .icon {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                position: relative;
+                border-radius: 100%;
+                background: #ddd
+            }
+
+            .track .step.active .text {
+                font-weight: 400;
+                color: #000
+            }
+
+            .track .text {
+                display: block;
+                margin-top: 7px
+            }
+
+        .itemside {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%
+        }
+
+            .itemside .aside {
+                position: relative;
+                -ms-flex-negative: 0;
+                flex-shrink: 0
+            }
+
+        .img-sm {
+            width: 80px;
+            height: 80px;
+            padding: 7px
+        }
+
+        ul.row,
+        ul.row-sm {
+            list-style: none;
+            padding: 0
+        }
+
+        .itemside .info {
+            padding-left: 15px;
+            padding-right: 7px
+        }
+
+        .itemside .title {
+            display: block;
+            margin-bottom: 5px;
+            color: #212529
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem
+        }
+
+        .btn-warning {
+            color: #ffffff;
+            background-color: #4b49ac;
+            border-color: #4b49ac;
+            border-radius: 1px
+        }
+
+            .btn-warning:hover {
+                color: #ffffff;
+                background-color: #4b49ac;
+                border-color: #4b49ac;
+                border-radius: 1px
+            }
+
+    </style>
+</head>
+<div style="background-color:#e9edfbc2!important">
+    <div class="container">
+        <article class="card" style="margin:auto;width:90% ;margin-top:12%;margin-bottom:8%;box-shadow:1px 1px 2px 1px #4b49aca8 ">
+            <h4 class="card-header"> Order # @ViewBag.order.Orderid </h4>
+            <div class="card-body">
+
+
+                <div class="track" style="width: 90%;margin: auto;margin-top:15px;margin-bottom:40px;">
+                    @if (ViewBag.order.Status == Status.btn1.ToString())
+                    {
+                        <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> On Process</span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Arrived</span> </div>
+
+                    }
+                    else if (ViewBag.order.Status == Status.btn2.ToString())
+                    {
+                        <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> On Process</span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Arrived</span> </div>
+
+
+                    }
+                    else if (ViewBag.order.Status == Status.btn3.ToString())
+                    {
+                        <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> On Process</span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+                        <div class="step"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Arrived</span> </div>
+
+
+                    }
+
+                    else if (ViewBag.order.Status == Status.btn4.ToString())
+                    {
+                        <div class="step active"> <span class="icon"> <i class="fa fa-check"></i> </span> <span class="text">Order confirmed</span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-user"></i> </span> <span class="text"> On Process</span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-truck"></i> </span> <span class="text"> On the way </span> </div>
+                        <div class="step active"> <span class="icon"> <i class="fa fa-box"></i> </span> <span class="text">Arrived</span> </div>
+
+
+                    }
+
+                </div>
+
+
+                <section class="h-100 gradient-custom">
+                    <div class="container py-5 h-100">
+                        <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col-lg-10 col-xl-11">
+                                <div class="card" style="border-radius: 10px;width: 92%; margin: auto;">
+
+                                    <div class="card-body p-4">
+                                        <div class="d-flex justify-content-between align-items-center mb-4">
+                                            <p class="lead fw-normal mb-0" style="color: #a8729a;">Receipt</p>
+                                        </div>
+                                        <div class="card shadow-0 border mb-4">
+                                            <div class="card-body">
+                                                @foreach (var item in Model)
+                                                {
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <img src=@Url.Content("~/Images/" + item.Product.Imagepath)
+                                                                 asp-append-version="true" style="border-radius:20%"
+                                                                 width="100px" height="100px" />
+                                                        </div>
+                                                        <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                                                            <p class="text-muted mb-0">@item.Product.Productname</p>
+                                                        </div>
+                                                        <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                                                            <p class="text-muted mb-0 small">@item.Itemprice $</p>
+                                                        </div>
+
+                                                        <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                                                            <p class="text-muted mb-0 small">Qty: @item.Quantity</p>
+                                                        </div>
+                                                        <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                                                            <p class="text-muted mb-0 small">@(item.Itemprice * item.Quantity) $</p>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="mb-4" style="background-color: #e0e0e0; opacity: 1;">
+
+
+                                                }
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="card-footer border-0 px-4"
+                                         style="background-color: #4b49acab; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                                        <h5 class="d-flex align-items-center text-white  mb-0" style="justify-content:center!important">
+                                            Total Paid: <span class="h4 mb-0 ms-2" style="color:white">@ViewBag.total $</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <a asp-action="GetOrders" asp-controller="Admin" class="btn btn-warning" data-abc="true"> <i class="fa fa-chevron-left"></i> Back to orders</a>
+            </div>
+        </article>
+    </div>
+</div>

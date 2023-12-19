@@ -1,0 +1,28 @@
+﻿@model HeAndSheStore.Models.Videoservice
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Videoservice</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Videourl)
+        </dt>
+        <dd class = "col-sm-10">
+            <video controls width="300" height="300">
+                <source src=@Url.Content("~/Video/"+Model.Videourl) type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,165 @@
+﻿@model IEnumerable<Cart>
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<!-- ##### Breadcrumb Area Start ##### -->
+<div class="breadcrumb-area">
+    <!-- Top Breadcrumb Area -->
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url('../../img/bg-img/24.jpg');">
+        <h2>Cart</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ##### Breadcrumb Area End ##### -->
+<!-- ##### Cart Area Start ##### -->
+<div class="cart-area section-padding-0-100 clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cart-table clearfix">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr style="width:100%">
+                                <th>Products</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th> </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td class="cart_product_img">
+                                                <a href="#"><img src="@Url.Content("~/Images/"+item.Product.Imagepath)" alt="Product"></a>
+                                                <h5>@item.Product.Productname</h5>
+                                            </td>
+                                            <td class="qty">
+                                                <div class="quantity">
+                                                 @item.Quantity
+                                                </div>
+                                            </td>
+                                    <td class="price"><span>$ @item.Product.Price  </span> </td>
+                                    <td class="price"><span>  </span> </td>
+
+                                   
+                                    <td class="action"><a asp-action="DeleteItem" asp-controller="Home" asp-route-id="@item.Productid"><i class="icon_close"></i></a></td>
+                                        </tr>
+                                    }
+
+
+                                    <tr>
+                                <td class="price">
+                                    
+                                        <span>
+                                          Sub  Total
+                                        </span>
+                                </td>
+                                <td class="price"><span>  </span> </td>
+                               
+                                    <td>
+                                            <strong>
+                                        $@ViewData["TotalPrice"]
+                                            </strong>
+                                    </td>
+                                   
+                                    </tr>
+
+                           
+                                  
+
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4">
+            <div class="checkout-content">
+                <h5 class="title--">Your Order</h5>
+                <div class="products">
+                    <div class="products-data">
+                        <h5>Products:</h5>
+                        @foreach(var item in Model){
+                            <div class="single-products d-flex justify-content-between align-items-center">
+                                <p>@item.Product.Productname</p>
+                                <h5>$@item.Product.Price</h5>
+                            </div>
+                        }
+                      
+                    </div>
+                </div>
+                <div class="subtotal d-flex justify-content-between align-items-center">
+                    <h5>Subtotal</h5>
+                    <h5>$@ViewData["TotalPrice"]</h5>
+                </div>
+                <div class="shipping d-flex justify-content-between align-items-center">
+                    <h5>Shipping</h5>
+                    <h5>$3.00</h5>
+                </div>
+                <div class="order-total d-flex justify-content-between align-items-center">
+                    <h5>Order Total</h5>
+                    <h5>$@ViewData["SubTotal"]</h5>
+                </div>
+                <div class="checkout-btn mt-30">
+            @*            <form method="post" asp-action="GetCartId" asp-controller="Home">
+                            <input type="hidden" asp-route-id="@Model."  />
+                            <input class="btn alazea-btn w-100"  type="submit" value="PROCEED TO CHECKOUT" />
+
+                    </form>*@
+                        <a asp-action="Checkout" asp-controller="Home" class="btn alazea-btn w-100">PROCEED TO CHECKOUT</a>
+                </div>
+            </div>
+            </div>
+       
+        </div>
+
+    </div>
+</div>
+<!-- ##### Cart Area End ##### -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".qty-minus").click(function () {
+            var input = $(this).closest(".quantity").find(".qty-text");
+            var qty = parseInt(input.val());
+            if (!isNaN(qty) && qty > 1) {
+                input.val(qty - 1);
+            }
+        });
+
+        $(".qty-plus").click(function () {
+            var input = $(this).closest(".quantity").find(".qty-text");
+            var qty = parseInt(input.val());
+            if (!isNaN(qty) && qty < 10) {
+                input.val(qty + 1);
+            }
+        });
+    });
+</script>

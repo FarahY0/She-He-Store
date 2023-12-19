@@ -1,0 +1,19 @@
+﻿@model HeAndSheStore.Models.Userr
+
+
+
+<div class="row">
+    <div style="display: flex; justify-content: center; align-items: center; height: 50vh; ">
+
+        <div class="contact-form-area mb-100" style="  width:700px ; ">
+
+            @await Html.PartialAsync("_EditUserProfileForm", Model)
+      </div>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

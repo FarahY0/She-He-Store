@@ -1,0 +1,112 @@
+﻿@model HeAndSheStore.Models.Testimonial
+
+@{
+    ViewData["Title"] = "CreateTestimonial";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+<!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area">
+        <!-- Top Breadcrumb Area -->
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url('../../img/bg-img/24.jpg');">
+            <h2>REVIEW</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Add Review</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+  
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2>Thank you for your Positive Reviews </h2>
+                       
+                    </div>
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area mb-100">
+                    <form asp-action="CreateTestimonial" asp-controller="Home" method="post" id="testimonial_slider">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Comments" class="control-label"></label>
+                                        <textarea asp-for="Comments" class="form-control"  cols="30" rows="10" placeholder="Message"></textarea>
+                                        <span asp-validation-for="Comments" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                <button type="submit" class="btn alazea-btn mt-15">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+
+
+@*<script>
+    $("#testimonial_slider").submit(function (e) {
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("CreateTestimonial", "Home")",
+            data: $("#testimonial_slider").serialize(),
+            success: function (response) {
+                if (response.success) {
+                    showCard(response.message);
+                } else {
+
+                    showCard2(response.message);
+                }
+            },
+            error: function () {
+                showCard2("An error occurred.");
+            }
+        });
+    });
+    $.ajax({
+        type: "POST",
+        url: "@Url.Action("CreateTestimonial", "Home")",
+        data: $("#testimonial_slider").serialize(),
+        dataType: "json",
+        success: function (response) {
+            if (response.success) {
+                showCard(response.message);
+            } else {
+                showCard2(response.message);
+            }
+        },
+
+    });
+
+    function showCard(message) {
+        alert(message);
+    }
+
+    function showCard2(message) {
+        alert(message);
+    }
+</script>*@

@@ -1,0 +1,234 @@
+﻿@model Userr
+@{
+    ViewData["Title"] = "EditProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+	body {
+		margin: 0;
+		color: #2e323c;
+		background: #e9edfbc2 !important;
+		position: relative;
+		height: 100%;
+	}
+
+	.account-settings .user-profile {
+		margin: 0 0 1rem 0;
+		padding-bottom: 1rem;
+		text-align: center;
+	}
+
+		.account-settings .user-profile .user-avatar {
+			margin: 0 0 1rem 0;
+		}
+
+			.account-settings .user-profile .user-avatar img {
+				width: 90px;
+				height: 90px;
+				-webkit-border-radius: 100px;
+				-moz-border-radius: 100px;
+				border-radius: 100px;
+			}
+
+		.account-settings .user-profile h5.user-name {
+			margin: 0 0 0.5rem 0;
+		}
+
+		.account-settings .user-profile h6.user-email {
+			margin: 0;
+			font-size: 0.8rem;
+			font-weight: 400;
+			color: #9fa8b9;
+		}
+
+	.account-settings .about {
+		margin: 2rem 0 0 0;
+		text-align: center;
+	}
+
+		.account-settings .about h5 {
+			margin: 0 0 15px 0;
+			color: #007ae1;
+		}
+
+		.account-settings .about p {
+			font-size: 0.825rem;
+		}
+
+	.form-control {
+		border: 1px solid #cfd1d8;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		font-size: .825rem;
+		background: #ffffff;
+		color: #2e323c;
+	}
+
+	.card {
+		background: #ffffff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		border: 0;
+		margin-bottom: 1rem;
+	}
+
+	.inputUser {
+		border-radius: 10px;
+		height: 45px;
+	}
+
+	.saveBtn {
+		background-color: #4b49ac;
+		border-color: #f5f7ff;
+		border-radius: 10px;
+		font-weight: 500;
+		color: white;
+		width: 100%;
+	}
+
+
+
+		.saveBtn:hover {
+			color: white;
+			background-color: #4b49ac;
+			box-shadow: 1px 1px 1px 1px black !important;
+			border-color: #f5f7ff;
+			border-radius: 10px;
+		}
+
+
+	.backBtn {
+		background-color: #bcbbf8;
+		border-color: #f5f7ff;
+		border-radius: 10px;
+		color: black;
+		width: 100%;
+		font-weight: 500;
+	}
+
+		.backBtn:hover {
+			box-shadow: 1px 1px 1px 1px black !important;
+			background-color: #bcbbf8;
+			border-color: #f5f7ff;
+			border-radius: 10px;
+			color: black;
+			width: 100%;
+			font-weight: 500;
+		}
+
+	.myColor {
+		color: #4b49ac;
+	}
+</style>
+
+
+<body>
+
+
+	<div class="container">
+		<div class="row gutters" style="margin-top:11%;margin-bottom:9%">
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+				<div class="card h-100">
+					<div class="card-body" style="box-shadow:1px 1px 2px 1px #4b49aca8">
+						<div class="account-settings">
+							<div class="user-profile" style="margin-top:25%">
+								<div class="user-avatar">
+									<img id="user-avatar-image" src="@Url.Content("~/Images/" + Model.Imagepath)" asp-append-version="true" style="border-radius: 8%; width: 100px; height: 100px;" />
+								</div>
+
+								<h5 class="user-name myColor">@Model.Fname @Model.Lname</h5>
+								<h6 class="user-email mt-1">@ViewBag.login.Email</h6>
+								
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+				<div class="card h-100">
+					<div class="card-body" style="box-shadow:1px 1px 2px 1px #4b49aca8">
+						<form enctype="multipart/form-data" asp-action="EditProfile" asp-controller="LoginRegister">
+							<input type="hidden" asp-for="Userid" />
+							<input type="hidden" asp-for="Gender" />
+
+							<div class="row gutters">
+
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-2">
+									<div class="form-group">
+										<label asp-for="Fname" class="myColor"></label>
+										<input class="form-control inputUser" asp-for="Fname" placeholder="Enter full name">
+										<span asp-validation-for="Fname" class="text-danger"></span>
+
+									</div>
+								</div>
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-2">
+									<div class="form-group">
+										<label asp-for="Lname" class="myColor"></label>
+										<input class="form-control inputUser" asp-for="Lname" placeholder="Enter full name">
+										<span asp-validation-for="Lname" class="text-danger"></span>
+
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-2">
+									<div class="form-group">
+										<label for="Email" class="myColor">Email</label>
+										<input type="email" class="form-control inputUser" name="Email" id="Email" value="@ViewBag.login.Email" placeholder="Enter email ID">
+									</div>
+								</div>
+				
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-2">
+									<div class="form-group">
+										<label asp-for="ImageFile" class="myColor"></label>
+										<input class="form-control inputUser" asp-for="ImageFile" type="file" id="imageFileInput" onchange="updateImagePreview(this);">
+										<span asp-validation-for="ImageFile" class="text-danger"></span>
+
+									</div>
+								</div>
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-2">
+									<div class="form-group">
+										<label for="Password" class="myColor">Password</label>
+										<input type="password" class="form-control inputUser" name="Password" id="Password" value="@ViewBag.login.Password" placeholder="Enter email ID">
+									</div>
+								</div>
+
+							</div>
+							<div class="gutters">
+								<div class=" col-lg-4 col-md-6  col-12 mt-3" style="float:inline-end">
+									<div class="d-flex justify-content-end">
+										<button asp-action="Index" asp-controller="Home" class="btn backBtn mr-2">Cancel</button>
+										<button type="submit" class="btn saveBtn">Update</button>
+									</div>
+								</div>
+							</div>
+
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		function updateImagePreview(input) {
+			var imgElement = document.getElementById('user-avatar-image');
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function (e) {
+					imgElement.src = e.target.result;
+				};
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+	</script>
+</body>

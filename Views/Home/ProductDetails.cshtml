@@ -1,0 +1,223 @@
+﻿@model Tuple<Product, IEnumerable<Review> , Review>
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area">
+        <!-- Top Breadcrumb Area -->
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url('../../img/bg-img/24.jpg');">
+            <h2>SHOP DETAILS</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Product" asp-controller="Home">Shop</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Shop Details</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+    <!-- ##### Single Product Details Area Start ##### -->
+    <section class="single_product_details_area mb-50">
+        <div class="produts-details--content mb-50">
+            <div class="container">
+                <div class="row justify-content-between">
+              
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="single_product_thumb">
+                            <div id="product_details_slider" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a class="product-img" href="" title="Product Image">
+                                            <img class="d-block w-100" src="@Url.Content("~/Images/"+Model.Item1.Imagepath)" alt="1">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <ol class="carousel-indicators">
+                                <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url('@Url.Content("~/Images/" + Model.Item1.Imagepath)')">
+                                    </li>
+
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                
+               
+                    <div class="col-12 col-md-6">
+                        <div class="single_product_desc">
+                        <h4 class="title">@Model.Item1.Productname</h4>
+                        <h4 class="price">$@Model.Item1.Price</h4>
+                            <div class="short_overview">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellem malesuada in nibh selama euismod. Curabitur a rhoncus dui. Nunc lobortis cursus magna utrum faucibus. Vivamus justo nibh, pharetra non risus accumsan, tincidunt suscipit leo.</p>
+                            </div>
+                       
+                            <div class="cart--area d-flex flex-wrap align-items-center">
+                                <!-- Add to Cart Form -->
+                            <form class="cart clearfix d-flex align-items-center" asp-action="AddToCart" asp-controller="Home" asp-route-productId="@Model.Item1.Productid"  method="post">
+                                <div class="quantity">
+                                    <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
+                                    <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                </div>
+                                <div>
+                                    <button class="btn alazea-btn ml-15" type="submit">
+                                        Add to cart
+                                    </button>
+                                </div>
+                                @if (Context.Session.GetString("UserId") != null)
+                                {
+                                    <div class="wishlist-compare d-flex flex-wrap align-items-center">
+                                        <a asp-action="AddToWishList" asp-controller="Home" asp-route-id="@Model.Item1.Productid"  class="wishlist-btn ml-15"><i class="icon_heart_alt"></i></a>
+                                    </div>
+                                }
+                            </form>
+                            @if (TempData["RemoveToWishList"] != null)
+
+                            {
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        Swal.fire(
+                                            'Warning!',
+                                            '@TempData["RemoveToWishList"]',
+                                            'warning'
+                                        );
+                                    });
+                                </script>
+
+                            }
+                            @if (TempData["AddToWishList"] != null)
+
+                            {
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        Swal.fire(
+                                            'Success!',
+                                            '@TempData["AddToWishList"]',
+                                            'success'
+                                        );
+                                    });
+                                </script>
+
+                            }
+                                <!-- Wishlist & Compare -->
+                              
+                            </div>
+                            
+                            <div class="products--meta">
+                                @*<p><span>SKU:</span> <span>CT201807</span></p>*@
+                            <p><span>Category:</span> <span>@Model.Item1.Category.Categoryname</span></p>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product_details_tab clearfix">
+                        <!-- Tabs -->
+                        <ul class="nav nav-tabs" role="tablist" id="product-details-tab">
+                            <li class="nav-item">
+                                <a href="#description" class="nav-link active" data-toggle="tab" role="tab">Description</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                          
+                            <a href="#reviews" class="nav-link" data-toggle="tab" role="tab">Reviews <span class="text-muted">(@ViewBag.NumberOfRating)</span> </a>
+                            </li>
+                        </ul>
+                        <!-- Tab Content -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade show active" id="description">
+
+                           
+
+                                <div class="description_area">
+                                    <p>Sed a facilisis orci. Curabitur magna urna, varius placerat placerat sodales, pretium vitae orci. Aliquam erat volutpat. Cras sit amet suscipit magna. Quisque turpis odio, facilisis vel eleifend eu, dignissim ac odio.</p>
+                                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. In scelerisque augue at the moment mattis. Proin vitae arcu sit amet justo sollicitudin tincidunt sit amet ut velit.Proin placerat vel augue eget euismod. Phasellus cursus orci eu tellus vestibulum, vestibulum urna accumsan. Vestibulum ut ullamcorper sapien. Pellentesque molestie, est ac vestibulum eleifend, lorem ipsum mollis ipsum.</p>
+                                </div>
+                            </div>
+                          
+                            <div role="tabpanel" class="tab-pane fade" id="reviews">
+                                <div class="submit_a_review_area mt-50">
+                                
+                                  @if (Context.Session.GetString("UserId") != null)
+                                {
+                                    <form asp-action="Rating" asp-controller="Home" method="post">
+                                        <input type="hidden" name="id" value="@Model.Item1.Productid">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group d-flex align-items-center" style="display:flex ; justify-content:space-between">
+                                                    <label class="mr-15" for="review">Your Ratings:</label>
+                                                    <div class="stars" >
+                                                        @for (int i = 1; i <= 5; i++)
+                                                        {
+                                                            <input type="radio" name="star" value="@i" class="star-@i" id="star-@i" @(Model.Item3 != null && i == Model.Item3.Rating ? "checked" : "")>
+                                                            <label class="star-@i" for="star-@i">@i</label>
+                                                        }
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="comment">Comments</label>
+                                                    <textarea class="form-control" id="review" name="comment" rows="5" data-max-length="150" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button id="btnSend" type="submit" class="btn alazea-btn" style="margin-bottom:100px">Submit Your Review</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                }
+                            </div>
+                            <div class="reviews_area">
+                                <ul>
+                                    @foreach (var review in Model.Item2)
+                                    {
+                                        <li>
+                                            <div class="single_user_review mb-15">
+                                                <div class="review-rating">
+                                                    <p >
+                                                        <span class="product-thumbnail"><img src="@Url.Content("~/Images/"+ review.User.Imagepath)" style="border-radius: 50%; height:50px !important ; width:50px !important" /></span><span>@review.User.Fname</span>
+                                                        @for (int i = 1; i <= review.Rating; i++)
+                                                        {
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                        }
+                                                    </p>
+
+                                                </div>
+                                                <div class="review-details">
+                                                    <p>@review.Comments</p>
+                                                    <p>on <span>@review.Reviewdate</span></p>
+
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Single Product Details Area End ##### -->
+    <!-- ##### Related Product Area Start ##### -->

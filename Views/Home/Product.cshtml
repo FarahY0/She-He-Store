@@ -1,0 +1,191 @@
+﻿@model Tuple<IEnumerable<Product>, IEnumerable<Category>,Product ,IEnumerable<Review> >
+@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ##### Breadcrumb Area Start ##### -->
+<div class="breadcrumb-area">
+    <!-- Top Breadcrumb Area -->
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url('../../img/bg-img/24.jpg');">
+        <h2>Shop</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ##### Breadcrumb Area End ##### -->
+<!-- ##### Shop Area Start ##### -->
+<section class="shop-page section-padding-0-100">
+    <div class="container">
+        <div class="row">
+            <!-- Shop Sorting Data -->
+            <div class="col-12">
+                <div class="shop-sorting-data d-flex flex-wrap align-items-center justify-content-between">
+                    <!-- Shop Page Count -->
+                  
+                    <!-- Search by Terms -->
+
+                   
+                    
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Area -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="shop-sidebar-area">
+                    <div class="shop-widget catagory mb-50">
+                        <h4 class="widget-title">Categories</h4>
+                        <div class="widget-desc">
+                            @foreach (var item in Model.Item2)
+                            {
+                                int productCount = Model.Item1.Count(p => p.CategoryId == item.Categoryid);
+
+                                    <!-- Single Checkbox -->
+                                <div class="custom-control d-flex align-items-center mb-2">
+
+                                    <a class="custom-control-label" asp-action="GetProductsByCategory" asp-controller="Home" asp-route-id="@item.Categoryid">@item.Categoryname <span class="text-muted">(@productCount)</span></a>
+                                </div>
+                            }
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Shop Widget -->
+                    <div class="shop-widget best-seller mb-50">
+                        <h4 class="widget-title">Best Reviews</h4>
+                        <div class="widget-desc">
+                          
+                            @foreach (var item in Model.Item4)
+                            {
+                                <!-- Single Best Seller Products -->
+                                <div class="single-best-seller-product d-flex align-items-center">
+                                    <div class="product-thumbnail">
+                                        <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@item.Productid"><img src="@Url.Content("~/Images/" + item.Product.Imagepath)" alt=""></a>
+                                    </div>
+                                    <div class="product-info">
+                                        <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@item.Productid">@item.Product.Productname</a>
+                                        <p>$@item.Product.Price</p>
+
+                                      
+                                        <div class="ratings">
+
+                                            @{
+                                                for (int i = 1; i <= 5; i++)
+                                                {
+                                                    if (i <= item.Rating)
+                                                    {
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    }
+                                                    else
+                                                    {
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    }
+                                                }
+                                            }
+                                            <p>@item.Comments</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                          
+
+                            
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- All Products Area -->
+            <div class="col-12 col-md-8 col-lg-9">
+                <div class="shop-products-area" id="productListing">
+                    <div class="row">
+
+                        <!-- Single Product Area -->
+                       
+                        @foreach(var item in Model.Item1){
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="single-product-area mb-50" data-category-id="22 23 24">
+                                    <!-- Product Image -->
+                                    <div class="product-img">
+                                        <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@item.Productid"><img src="@Url.Content("~/Images/"+item.Imagepath)" alt=""></a>
+
+                                        @if (item.Sale != null)
+                                        {
+                                            <div class="product-tag sale-tag">
+                                                <a href="#">Sale</a>
+                                            </div>
+                                        }
+                                    </div>
+                                    <!-- Product Info -->
+                                    <div class="product-info mt-15 text-center">
+                                        <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@item.Productid">
+
+                                            <p>@item.Productname</p>
+                                        </a>
+                                      
+                                        <h6>
+                                            @if (item.Sale > 0)
+
+                                            {
+                                                <span class="stext-105 cl3">
+                                                    <span style="color:red"><del>@item.Price $</del> </span>  &nbsp / &nbsp <span>@(item.Price - (item.Price * item.Sale / 100)) $</span>
+                                                </span>
+
+                                            }
+                                            else
+                                            {
+                                                <span class="stext-105 cl3">
+                                                    @item.Price $
+                                                </span>
+                                            }
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                     
+
+                          
+                        </div>
+
+                        <!-- Pagination -->
+                      @*  <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </nav>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Shop Area End ##### -->
+
+
+
+
+

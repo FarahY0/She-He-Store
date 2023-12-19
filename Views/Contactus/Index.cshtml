@@ -1,0 +1,68 @@
+﻿@model IEnumerable<HeAndSheStore.Models.Contactu>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<style>
+    td {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+</style>
+
+
+
+<table class="table" style="margin-top:50px !important">
+    <thead>
+        <tr>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+        
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+          
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+           
+            <td>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=@item.Email&su=SUBJECT&body=" target="_blank" class="colorEdit"><span class="fa fa-mail-reply"></span></a>|
+                    <a asp-action="Details" asp-route-id="@item.Contactusid"><i class="fa fa-calendar-o"></i> </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Contactusid"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

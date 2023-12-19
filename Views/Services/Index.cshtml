@@ -1,0 +1,71 @@
+﻿@model IEnumerable<HeAndSheStore.Models.Service>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    td {
+        text-align: center;
+    }
+    th{
+        text-align: center;
+    }
+</style>
+
+
+<p>
+    <h3 class="h5 mb-4 text-left" style="margin-top:15px;"> <a asp-action="Create" class="btn" style="background-color: #8064A2 !important; color:whitesmoke!important">Create New</a></h3>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Servicename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagepath)
+            </th>
+          @*  <th>
+                @Html.DisplayNameFor(model => model.Imagepath)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servicename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                  @*  <video controls width="300" height="300">
+                        <source src=@Url.Content("~/Video/"+item.Videourl) type="video/mp4"  >
+                        Your browser does not support the video tag. 
+                    </video>*@
+
+
+                    <img src=@Url.Content("~/Images/"+item.Imagepath)
+                         asp-append-version=true style="border-radius : 20%; height:80px!important ; width:80px !important;" />
+                
+
+            </td>
+          @*  <td>
+                @Html.DisplayFor(modelItem => item.Imagepath)
+            </td>*@
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Serviceid"><i class="fa fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Serviceid"><i class="fa fa-calendar-o"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Serviceid"><i class="fa fa-trash-o"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

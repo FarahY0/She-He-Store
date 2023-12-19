@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Cart>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive HTML Table With Pure CSS - Web Design/UI Design</title>
+    <link rel="stylesheet" href="~/AdminAssets/TablesStyle.css">
+    <link href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    <link href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" rel="stylesheet" />
+</head>
+
+<body>
+<main class="table" >
+    <section class="table__header">
+        <h1>Customer's Orders</h1>
+        <div class="input-group">
+            <form asp-action="Search" asp-controller="Home" method="post">
+           @*         <input type="search" placeholder="Search Data...">*@
+                    <input type="date" placeholder="Search Data..." style="border:none; float:left;" name="date">
+                    <input type="date" placeholder="Search Data..." style="border:none; float:left;" name="date">
+                    <button type="submit" style="background-color: transparent; border:none;float:right; "><img src="~/AdminAssets/TablesJS/images/search.png" style="float:right;" alt=""></button>
+                    
+            </form>
+            
+        </div>
+        <div class="export__file">
+            <label for="export-file" class="export__file-btn" title="Export File"></label>
+            <input type="checkbox" id="export-file">
+            <div class="export__file-options">
+                <label>Export As &nbsp; &#10140;</label>
+                <label for="export-file" id="toPDF">PDF <img src="~/AdminAssets/TablesJS/images/pdf.png" alt=""></label>
+                <label for="export-file" id="toJSON">JSON <img src="~/AdminAssets/TablesJS/images/json.png" alt=""></label>
+                <label for="export-file" id="toCSV">CSV <img src="~/AdminAssets/TablesJS/images/csv.png" alt=""></label>
+                <label for="export-file" id="toEXCEL">EXCEL <img src="~/AdminAssets/TablesJS/images/excel.png" alt=""></label>
+            </div>
+        </div>
+    </section>
+    <section class="table__body">
+        <table>
+            <thead>
+                <tr>
+                    <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Customer <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Product Name <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Quantity <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Price <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Total Price <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Order Date <span class="icon-arrow">&UpArrow;</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td> @item.User.Userid </td>
+                        <td> <img src="~/AdminAssets/TablesJS/images/Zinzu Chan Lee.jpg" alt="">@item.User.Fname<span>@item.User.Lname</span> </td>
+                        
+                        <td> @item.Product.Productname </td>
+                        <td> @item.Quantity </td>
+
+                        <td><strong>@item.Product.Price</strong></td>
+                        <td><strong>@(item.Quantity * item.Product.Price)</strong> </td>
+                   
+                        <td> @item.Orderdate</td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </section>
+</main>
+<script src="~/AdminAssets/TablesJS/script.js"></script>
+</body>
+</html>

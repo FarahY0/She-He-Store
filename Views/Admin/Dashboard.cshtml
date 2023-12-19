@@ -1,0 +1,209 @@
+﻿@using Newtonsoft.Json;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<html>
+    <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+<body>
+<!-- dashboard inner -->
+<div class="midde_cont">
+    <div class="container-fluid">
+        <div class="row column_title">
+            <div class="col-md-12">
+                <div class="page_title">
+                    <h2>Dashboard</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row column1">
+            <div class="col-md-6 col-lg-3">
+                <div class="full counter_section margin_bottom_30">
+                    <div class="couter_icon">
+                        <div>
+                            <i class="fa fa-user yellow_color"></i>
+                        </div>
+                    </div>
+                    <div class="counter_no">
+                        <div>
+                            <p class="total_no" style="color:#455a64">@ViewData["NumberOfUsers"]</p>
+                            <p class="head_couter" style="color:#99abb4">Users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="full counter_section margin_bottom_30">
+                    <div class="couter_icon">
+                        <div>
+                            <i class="fa fa-clock-o blue1_color"></i>
+                        </div>
+                    </div>
+                    <div class="counter_no">
+                        <div>
+                            <p class="total_no" style="color:#455a64">@ViewBag.numberOfProducts</p>
+                            <p class="head_couter" style="color:#99abb4">Products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="full counter_section margin_bottom_30">
+                    <div class="couter_icon">
+                        <div>
+                            <i class="fa fa-cloud-download green_color"></i>
+                        </div>
+                    </div>
+                    <div class="counter_no">
+                        <div>
+                            <p class="total_no" style="color:#455a64">@ViewBag.numberOfOrders</p>
+                            <p class="head_couter" style="color:#99abb4">Orders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="full counter_section margin_bottom_30">
+                    <div class="couter_icon">
+                        <div>
+                            <i class="fa fa-comments-o red_color"></i>
+                        </div>
+                    </div>
+                    <div class="counter_no">
+                        <div>
+                            <p class="total_no" style="color:#455a64">@ViewBag.numberOfReviews</p>
+                            <p class="head_couter" style="color:#99abb4">Reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<!-- end dashboard inner -->
+
+    <div class="chart-container">
+        <div class="row">
+                <div class="col-lg-6 col-12 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Number of Orders by Date</h4>
+                            <div style="height: 270px; width: 100%;">
+                                <canvas id="ordersChart" width="800" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-lg-6 col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        
+                        <div style="height: 270px; width: 100%;">
+                            <canvas id="doughnutChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           @* <div class="col-lg-6 col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Number of sales from each Category</h4>
+                        <div style="height: 270px; width: 100%;">
+                            <canvas id="productSellChart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+
+            <!-- Add more chart pairs here as needed -->
+        </div>
+    </div>
+</div>
+   
+      
+
+
+    <script>
+        // Wait for the DOM to load before executing JavaScript
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the canvas element for the line chart by its ID
+
+
+            // Get the canvas element for the doughnut chart by its ID
+            var doughnutCtx = document.getElementById("doughnutChart").getContext("2d");
+
+            // Sample data for the doughnut chart (replace with your data)
+            var doughnutData = {
+                labels: ["Boys", "Girls"],
+                datasets: [{
+                    data: [@ViewBag.boyNumber, @ViewBag.girlNumber],
+                    backgroundColor: ["#D1F3C5", "#F4C2C2"],
+                }],
+            };
+            
+
+            // Create the doughnut chart
+            var doughnutChart = new Chart(doughnutCtx, {
+                type: "doughnut",
+                data: doughnutData,
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var orderCountsByDate = @Html.Raw(JsonConvert.SerializeObject(ViewBag.orderCountsByDate));
+
+        var dates = orderCountsByDate.map(function (item) {
+            return new Date(item.Date).toLocaleDateString();
+        });
+
+        var counts = orderCountsByDate.map(function (item) {
+            return item.Count;
+        });
+
+        var ctx = document.getElementById('ordersChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: dates,
+                datasets: [{
+                    label: 'Number of Orders',
+                    data: counts,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)', // Adjust the color as needed
+                    borderColor: 'rgba(54, 162, 235, 1)', // Adjust the border color as needed
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Date'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Number of Orders'
+                        },
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    </body>
+    </html>
+

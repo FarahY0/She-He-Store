@@ -1,0 +1,192 @@
+﻿ @model Tuple<IEnumerable<Ourteam>,IEnumerable<Service>, Videoservice, IEnumerable<Aboutu>>
+@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <div class="breadcrumb-area">
+        <!-- Top Breadcrumb Area -->
+    <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image:url('../../img/bg-img/24.jpg');">
+            <h2>ABOUT US</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcrumb Area End ##### -->
+    <!-- ##### About Area Start ##### -->
+<!-- ##### About Area Start ##### -->
+<section class="about-us-area section-padding-100-0">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-5">
+                <!-- Section Heading -->
+                <div class="section-heading">
+                    <h2>ABOUT US</h2>
+                    <p>We are leading in the plants service fields.</p>
+                </div>
+                <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+
+                <!-- Progress Bar Content Area -->
+                <div class="alazea-progress-bar mb-50">
+                    <!-- Single Progress Bar -->
+                    <div class="single_progress_bar">
+                        <img src="~/dsc00741.jpg" />
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="alazea-benefits-area">
+                    <div class="row">
+                        @foreach (var item in Model.Item4)
+                        {
+                            <!-- Single Benefits Area -->
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="@Url.Content("~/Images/"+item.Imagepath)" alt="">
+                                    <h5>@item.Title</h5>
+                                    <p>@item.Content</p>
+                                </div>
+                            </div>
+                        }
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="border-line"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### About Area End ##### -->
+<!-- ##### Service Area Start ##### -->
+<section class="our-services-area bg-gray section-padding-100-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading -->
+                <div class="section-heading text-center">
+                    <h2>OUR SERVICES</h2>
+                    <p>We provide the perfect service for you.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-5">
+                <div class="alazea-service-area mb-100">
+                    @foreach (var item in Model.Item2)
+                    {
+                        <!-- Single Service Area -->
+                        <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
+                            <!-- Icon -->
+                            <div class="service-icon mr-30">
+                                <img src="@Url.Content("~/Images/"+item.Imagepath)" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="service-content">
+                                <h5>@item.Servicename</h5>
+                                <p>@item.Description</p>
+                            </div>
+                        </div>
+
+                    }
+
+
+
+
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="alazea-video-area bg-overlay mb-100">
+                    @*<img src="img/bg-img/23.jpg" alt="">*@
+                    <a href="">
+                        <video controls width="550" height="390">
+                            <source src=@Url.Content("~/Video/"+Model.Item3.Videourl) type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        @* <i class="fa fa-play" aria-hidden="true"></i>*@
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Service Area End ##### -->
+
+
+ 
+
+    <!-- ##### Team Area Start ##### -->
+    <section class="team-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>OUR TEAM</h2>
+                        <p>A team of dedicated experienced professionals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            @foreach (var item in Model.Item1)
+            {
+                <!-- Single Team Member Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-team-member text-center mb-100">
+                        <!-- Team Member Thumb -->
+                        <div class="team-member-thumb" width="100" height="900">
+                            <img src="@Url.Content("~/Images/"+item.Imagepath)"  alt="">
+                            <!-- Social Info -->
+                            <div class="team-member-social-info">
+                                
+                                <a href="@item.Empinstagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="@item.Emplinkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- Team Member Info -->
+                        <div class="team-member-info mt-30">
+                            <h5>@item.Empname</h5>
+                            <p>@item.Empposition</p>
+                        </div>
+                    </div>
+                </div>
+            }
+          
+
+             
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Team Area End ##### -->
+ 
